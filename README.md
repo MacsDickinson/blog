@@ -1,4 +1,1 @@
-blog
-====
-
-My blog. Brought to you by Sandra.Snow
+Macs' Blog - Brought to you by Sandra.Snow
