@@ -3,7 +3,14 @@
 @{
   Layout = "default.cshtml";
 }
-
+@section menu {	
+	<ul class="sf-menu">
+		<li><a href="/">Home</a></li>
+		<li><a href="/projects">Projects</a></li>
+		<li class="current"><a href="/categories">Categories</a></li>
+		<li><a href="/archive">Archive</a></li>          
+	</ul>
+}
 <h1><a href="/categories/">Categories</a> - @Model.Category.Name</h1>
 
 <ul class="category-list">

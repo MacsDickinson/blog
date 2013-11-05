@@ -4,59 +4,59 @@
   Layout = "default.cshtml";
 }
 
-@section featured{
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-      </div>
-    </div>
+@section menu {	
+	<ul class="sf-menu">
+		<li class="current"><a href="/">Home</a></li>
+		<li><a href="/projects">Projects</a></li>
+		<li><a href="/categories">Categories</a></li>
+		<li><a href="/archive">Archive</a></li>          
+	</ul>
 }
 
-  <ul class="posts">
-    @foreach(var postPaged in Model.PostsPaged) {
-    <li>
-      <h1>
-        <a href="@postPaged.Url">@postPaged.Title</a> 
-        <span>posted on @postPaged.Date.ToString("dd MMM yyyy")</span>
-      </h1> 
-      @Html.RenderSeries(postPaged)
-      @Html.Raw(postPaged.ContentExcerpt)
-      <p><a href="@postPaged.Url">Read more...</a></p>
-    </li>
-    }
-  </ul> 
+
+@foreach(var postPaged in Model.PostsPaged) {
+	<div class="post pad-bot">
+		<div class="container_12">
+			<div class="row">
+				<div class="grid_12">
+					<h2><a href="@postPaged.Url">@postPaged.Title</a></h2>
+					<h3><a href="@postPaged.Url">@postPaged.Date.ToString("dd MMM yyyy")</a></h3>
+					@Html.RenderSeries(postPaged)
+					@Html.Raw(postPaged.ContentExcerpt)
+					<p><a href="@postPaged.Url">Read more...</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+}
 
   <!-- Pagination links -->
-  <div id="post-pagination" class="pagination">
-
-   
-     @if (Model.HasPreviousPage) {
-      if (Model.PreviousPage == 1) {
-      <p class="previous">
-        <a href="/">Previous Page</a>
-      </p>
-      }
-      else {
-      <p class="previous">
-        <a href="/page@(Model.PreviousPage)">Previous Page</a>
-        </p>
-      }
-    }
-
-    @if (!Model.HasPreviousPage) {
-    
-      <!--<a href="/">Previous Page</a>-->
-    
-    }
-
-    @if (Model.HasNextPage) {
-    <p class="previous">
-      <a href="/page@(Model.NextPage)">Next Page</a>
-    </p>
-    }
-
-  </div>
+<div id="post-pagination" class="pagination">
+	<div class="container_12">
+		<div class="row">
+			<div class="grid_12">
+			@if (Model.HasPreviousPage) {
+				if (Model.PreviousPage == 1) {
+					<p class="previous">
+						<a href="/">Previous Page</a>
+					</p>
+				}
+				else {
+					<p class="previous">
+						<a href="/page@(Model.PreviousPage)">Previous Page</a>
+					</p>
+				}
+			}
+			@if (!Model.HasPreviousPage) {
+			  <!--<a href="/">Previous Page</a>-->
+			}
+			@if (Model.HasNextPage) {
+				<p class="previous">
+					<a href="/page@(Model.NextPage)">Next Page</a>
+				</p>
+			}
+			</div>
+		</div>
+	</div>
+</div>
 
