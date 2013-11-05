@@ -20,7 +20,11 @@
 			<div class="row">
 				<div class="grid_12">
 					<h2><a href="@postPaged.Url">@postPaged.Title</a></h2>
-					<h3><a href="@postPaged.Url">@postPaged.Date.ToString("dd MMM yyyy")</a></h3>
+					<h3><a href="@postPaged.Url">@postPaged.Date.ToString("dd MMM yyyy")</a>
+						@foreach (var category in postPaged.Categories) {
+							<a class="btn btn-default btn-sm" href="/category/@category"><i class="fa fa-tag"></i> @category</a>
+						}
+					</h3>
 					@Html.RenderSeries(postPaged)
 					@Html.Raw(postPaged.ContentExcerpt)
 					<p><a href="@postPaged.Url">Read more...</a></p>
