@@ -75,10 +75,6 @@ h1 { text-align: center; margin-bottom: 74px;}
 
 /************Footer************/
 
-.pagination {
-	background: #292f39;
-}
-
 footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 10px; line-height: 18px; color: #68707b; text-transform: uppercase; padding-top: 41px; padding-bottom: 83px; text-align: center;}
 
 .top { display:block; margin-top: 76px;}
