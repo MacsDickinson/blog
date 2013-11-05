@@ -41,10 +41,10 @@ html, body {
 * { -webkit-text-size-adjust: none;}
 
 a { color: inherit; text-decoration: none;}
-a:hover { text-decoration: none;}
+a:hover { text-decoration: none; color: #51b1c9; transition: all 0.7s ease;}
 a[href^="tel:"] {color: inherit;text-decoration:none;}
-.a-hov { transition: all 0.4s ease;}
-.a-hov:hover { color: #323a45;}
+
+.bg-1 a:hover { color: #323a45;}
 
 ul li a { transition: all 0.4s ease;}
 
