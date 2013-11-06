@@ -1,0 +1,27 @@
+@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.ContentViewModel>
+@using System.Collections.Generic
+@{
+  Layout = "default.cshtml";
+}
+
+
+@section menu {	
+	<ul class="sf-menu">
+		<li><a href="/">Blog</a></li>
+		<li><a href="/projects">Projects</a></li>
+		<li><a href="/categories">Categories</a></li>
+		<li><a href="/archive">Archive</a></li>          
+	</ul>
+}
+
+<header>
+	<div class="head-inner">
+		<h1>Drafts</h1>
+	</div>
+</header>
+  
+<ul class="category-list fancy-container darkishblue">
+	@foreach(var draft in Model.Drafts){
+		<li><a href="/drafts@draft.Url" title="@draft.Title">@draft.Title</a></li>
+	}
+</ul>
