@@ -2,17 +2,22 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
+.typekit-badge {
+	display: none !important;
+}
+
 html, body {
 	margin: 0;
 	background: #51b1c9;
-	font: 15px/26px Arial, sans-serif;
+	font: 15px/26px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	text-align: justify;
 	color: #ffffff;
 	min-width:300px;
 }
 
-.bg-1 { background: #51b1c9; padding-bottom: 90px; position: relative;}
+.bg-1 { background: #51b1c9; padding-bottom: 20px; position: relative;}
 .bg-1:after {
 	position: absolute;
 	content:"";
@@ -25,7 +30,7 @@ html, body {
 	z-index: 9999;
 }
 
-.bg-2 { background: #323a45; padding-bottom: 90px; position: relative;}
+.bg-2 { background: #323a45; padding-bottom: 20px; position: relative;}
 .bg-2:after {
 	position: absolute;
 	content:"";
@@ -56,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 h1 { 
-	font-family: 'Open Sans Condensed', sans-serif; 
 	font-size: 5em;
 	padding-top: 30px; 
 	letter-spacing: -1px;
@@ -64,30 +68,25 @@ h1 {
 	margin-bottom: 20px;
 }
 h1 span { 
-	font-size: 14px; 
-	line-height: 40px; 
+	font-size: 16px; 
+	line-height: 30px; 
 	color: #68707b;
-	font-family: 'Open Sans', sans-serif; 
 	text-transform: uppercase; 
 	display: block; 
-	letter-spacing: 
-	1px; 
-	margin-top: -2px;
+	letter-spacing: 1px;
 }
 h2 { 
 	text-transform: uppercase; 
-	font-size: 30px; 
+	font-size: 3em;
+	font-weight: 600;
 	text-align: center; 
-	padding-top: 110px; 
-	padding-bottom: 67px; 
-	padding-right: 30px;
+	padding: 20px 0 20px;
 }
 h2 span { 
-	font-size: 12px; 
+	font-size: 16px; 
 	line-height: 30px; 
 	color: #68707b; 
 	display: block; 
-	padding-left: 12px;
 }
 h3 { 
 	font-size: 18px; 
@@ -110,6 +109,22 @@ header:after {
 	left: 50%;
 	margin-left: -24px;
 	z-index: 1000;
+}
+
+/************Index*************/
+
+.read-more {
+	font-weight: 600;
+	text-align: center;
+	font-size: 2em;
+}
+
+.bg-1 .read-more {
+	color: #323a45;
+}
+
+.bg-2 .read-more {
+	color: #51b1c9;
 }
 
 /************Footer************/
