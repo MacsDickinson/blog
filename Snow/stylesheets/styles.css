@@ -46,6 +46,12 @@ a[href^="tel:"] {color: inherit;text-decoration:none;}
 
 .bg-1 a:hover { color: #323a45;}
 
+img {
+	display: block;
+	margin: 20px auto;
+	border: 6px solid #fff;
+}
+
 h1, h2, h3, h4, h5, h6 { 
 	font-weight: 300;
 }
