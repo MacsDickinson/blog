@@ -117,14 +117,7 @@ header:after {
 	font-weight: 600;
 	text-align: center;
 	font-size: 2em;
-}
-
-.bg-1 .read-more {
-	color: #323a45;
-}
-
-.bg-2 .read-more {
-	color: #51b1c9;
+	color: #ffcc00;
 }
 
 /************Footer************/
