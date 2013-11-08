@@ -26,7 +26,7 @@ html, body {
 	background: url(../images/arrow-3.png) 0 0 no-repeat; 
 	bottom: -25px;
 	left: 50%;
-	margin-left: -40px;
+	margin-left: -25px;
 	z-index: 9999;
 }
 
@@ -39,7 +39,7 @@ html, body {
 	background: url(../images/arrow-1.png) 0 0 no-repeat; 
 	bottom: -25px;
 	left: 50%;
-	margin-left: -40px;
+	margin-left: -25px;
 	z-index: 9999;
 }
 
@@ -62,7 +62,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 { 
 	font-size: 5em;
-	padding-top: 30px; 
 	letter-spacing: -1px;
 	text-align: center; 
 	margin-bottom: 20px;
@@ -98,18 +97,23 @@ h5 { }
 
 /************Header************/
 
-header { background: #323a45; position: relative; z-index: 999;}
-header:after { 
-	position: absolute;
-	content: "";
-	background: url(../images/arrow-1.png) left top repeat;
-	width: 49px;
-	height: 25px;
-	bottom: -25px;
-	left: 50%;
-	margin-left: -40px;
-	z-index: 1000;
+header {
+	background: #323a45; 
+	position: relative; 
+	z-index: 999;
+	padding-bottom: 20px;
 }
+	header:after { 
+		position: absolute;
+		content: "";
+		background: url(../images/arrow-1.png) left top repeat;
+		width: 49px;
+		height: 25px;
+		bottom: -25px;
+		left: 50%;
+		margin-left: -25px;
+		z-index: 1000;
+	}
 
 /************Index*************/
 
@@ -166,7 +170,6 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 nav { 
 	position:relative; 
 	z-index: 11;
-	height: 96px;
 	text-align: center;
 }
 

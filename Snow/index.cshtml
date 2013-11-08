@@ -15,23 +15,21 @@
 
 
 @foreach(var postPaged in Model.PostsPaged) {
-	<div class="post pad-bot">
-		<div class="container_12">
-			<div class="row">
-				<div class="grid_12">
-					<h2>
-						<a href="@postPaged.Url">@postPaged.Title</a>
-						<span>@postPaged.Date.ToString("dd MMM yyyy")</span>
-					</h2>
-					@* @Html.RenderSeries(postPaged) *@
-					<p>
-						@foreach (var category in postPaged.Categories) {
-							<a class="btn btn-default btn-sm" href="/category/@category"><i class="fa fa-tag"></i> @category</a>
-						}
-					</p>
-					@Html.Raw(postPaged.ContentExcerpt)
-					<p class="read-more tk-ff-enzo-web"><a href="@postPaged.Url">&lt; Read More &gt;</a></p>
-				</div>
+	<div class="post">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h2>
+					<a href="@postPaged.Url">@postPaged.Title</a>
+					<span>@postPaged.Date.ToString("dd MMM yyyy")</span>
+				</h2>
+				@* @Html.RenderSeries(postPaged) *@
+				<p>
+					@foreach (var category in postPaged.Categories) {
+						<a class="btn btn-default btn-sm" href="/category/@category"><i class="fa fa-tag"></i> @category</a>
+					}
+				</p>
+				@Html.Raw(postPaged.ContentExcerpt)
+				<p class="read-more tk-ff-enzo-web"><a href="@postPaged.Url">&lt; Read More &gt;</a></p>
 			</div>
 		</div>
 	</div>
