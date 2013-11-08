@@ -26,7 +26,7 @@ html, body {
 	background: url(../images/arrow-3.png) 0 0 no-repeat; 
 	bottom: -25px;
 	left: 50%;
-	margin-left: -25px;
+	margin-left: -40px;
 	z-index: 9999;
 }
 
@@ -39,7 +39,7 @@ html, body {
 	background: url(../images/arrow-1.png) 0 0 no-repeat; 
 	bottom: -25px;
 	left: 50%;
-	margin-left: -25px;
+	margin-left: -40px;
 	z-index: 9999;
 }
 
@@ -107,7 +107,7 @@ header:after {
 	height: 25px;
 	bottom: -25px;
 	left: 50%;
-	margin-left: -24px;
+	margin-left: -40px;
 	z-index: 1000;
 }
 
