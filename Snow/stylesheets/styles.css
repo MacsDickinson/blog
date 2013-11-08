@@ -55,6 +55,7 @@ img {
 	display: block;
 	margin: 20px auto;
 	border: 6px solid #fff;
+	max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 { 
