@@ -17,11 +17,11 @@
 @foreach(var postPaged in Model.PostsPaged) {
 	<div class="post">
 		<div class="row">
-			<div class="col-sm-6 col-sm-offset-3">
-				<h2>
+			<div class="col-sm-8 col-sm-offset-2">
+				<h1>
 					<a href="@postPaged.Url">@postPaged.Title</a>
 					<span>@postPaged.Date.ToString("dd MMM yyyy")</span>
-				</h2>
+				</h1>
 				@* @Html.RenderSeries(postPaged) *@
 				<p>
 					@foreach (var category in postPaged.Categories) {
