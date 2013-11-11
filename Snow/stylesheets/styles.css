@@ -17,31 +17,33 @@ html, body {
 	min-width:300px;
 }
 
-.bg-1 { background: #51b1c9; padding-bottom: 20px; position: relative;}
-.bg-1:after {
-	position: absolute;
-	content:"";
-	width: 49px;
-	height: 25px;
-	background: url(../images/arrow-3.png) 0 0 no-repeat; 
-	bottom: -25px;
-	left: 50%;
-	margin-left: -25px;
-	z-index: 9999;
+.post {
+	padding-bottom: 10px; 
+	position: relative;
 }
+	.post:after {
+		position: absolute;
+		content:"";
+		width: 49px;
+		height: 25px;
+		bottom: -25px;
+		left: 50%;
+		margin-left: -25px;
+		z-index: 9999;
+	}
+.bg-1 { 
+	background: #51b1c9;
+}
+	.bg-1:after {
+		background: url(../images/arrow-3.png) 0 0 no-repeat;
+	}
 
-.bg-2 { background: #323a45; padding-bottom: 20px; position: relative;}
-.bg-2:after {
-	position: absolute;
-	content:"";
-	width: 49px;
-	height: 25px;
-	background: url(../images/arrow-1.png) 0 0 no-repeat; 
-	bottom: -25px;
-	left: 50%;
-	margin-left: -25px;
-	z-index: 9999;
+.bg-2 { 
+	background: #323a45; 
 }
+	.bg-2:after {
+		background: url(../images/arrow-1.png) 0 0 no-repeat;
+	}
 
 * { -webkit-text-size-adjust: none;}
 
@@ -59,6 +61,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 { 
+	font-family: "ff-enzo-web", sans-serif;
 	font-weight: 300;
 }
 h1 { 
@@ -88,10 +91,8 @@ h2 span {
 	color: #68707b; 
 	display: block; 
 }
-h3 { 
-	font-size: 18px; 
-	line-height: 24px; 
-	padding-bottom: 47px;
+h3 {
+	font-weight: 600;
 }
 h4 { }
 h5 { }
