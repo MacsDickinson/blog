@@ -8,7 +8,7 @@
 
 html, body {
 	margin: 0;
-	background: #51b1c9;
+	background: #292f39;
 	font: 15px/26px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -145,7 +145,7 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 	padding: 0;
 }
 
-/************Archive************/
+/************Categories************/
 
 .categories {
 	padding-top: 20px;
@@ -154,6 +154,22 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 .categories h2 {
 	font-size: 1.5em;
 	padding: 0;
+}
+
+/************Category************/
+
+.category h1 {
+	text-transform: uppercase; 
+	padding: 20px 0;
+}
+
+.category h2 {
+	font-size: 2em;
+	padding: 0;
+}
+
+.category h3 {
+	text-align: center;
 }
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
