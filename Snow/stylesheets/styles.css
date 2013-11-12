@@ -145,6 +145,17 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 	padding: 0;
 }
 
+/************Archive************/
+
+.categories {
+	padding-top: 20px;
+}
+
+.categories h2 {
+	font-size: 1.5em;
+	padding: 0;
+}
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
 
