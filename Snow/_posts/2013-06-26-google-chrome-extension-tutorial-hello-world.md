@@ -5,14 +5,12 @@ title: Google Chrome Extension Tutorials: Hello World
 series: 
 	name: Google Chrome Extensions 101
     current: 1
-    part: Hello World
+    part: Part 1: Hello World
 ---
 
-# Google Chrome extension Tutorial - Part 1
+This is the first post in a series of tutorials on building Google Chrome extensions. Google Chrome has established itself as the browser of choice [boasting a 50%+ market share][2] since March. Part of its success is Google's willingness to let developers extend and improve it. I have been getting to know the extensions platform for some time now and I thought it would be a good idea to document my findings as I delve deeper into the abyss.
 
 ![Chrome Extension Tutorial][1]
-
-This is the first post in a series of tutorials on building Google Chrome extensions. Google Chrome has established itself as the browser of choice [boasting a 50%+ market share][2] since March. Part of its success is Google's willingness to let developers extend and improve it. I have been getting to know the extensions platform for some time now and I thought it would be a good idea to document my findings as I delve deeper into the abyss.
 
 In this first post I will explain a couple of the the basic concepts that you need to know in order to build a simple Hello World extension. I will also tell you what you need to do to get a local copy of your extension working in your browser. This will give us a solid foundation that we will expand upon as we go through the series.
 
@@ -26,7 +24,7 @@ The concepts we will be covering today are:
 
 Before we get started it is worth pointing out that creating Google Chrome extensions does require a fair level of JavaScript knowledge. If you are not familiar with JavaScript then take a look on [W3Schools][3] and work your way through the courses at [CodeAcademy][4].
 
-## **Manifest Files**
+<h2 id="manifest">Manifest Files</h2>
 
 Think of this as the skeleton of your extension; it is where you tell Chrome everything it needs to know and where to load any resources it’ll need. In reality it is nothing more than a JSON document called manifest.json that specifies all the important information about your extension. I am only going to cover a few of the fields that you can specify in in the manifest file. For an extensive list of what else is available take a look at the [Google API docs][5].
 
@@ -40,7 +38,7 @@ Before we get into the interesting bits we need to add a few required fields; **
 		"manifest_version" : 2
 	}
 
-## Content Scripts
+<h2 id="contentscripts">Content Scripts</h2>
 
 Put very simply, content scripts give you the ability to read and manipulate data on web pages using your own custom JavaScript or CSS code. However there are a couple of important things to note. Content scripts are executed from within a sandboxed environment whilst maintaining access to the DOM. This means that they will execute on the page without interacting with any other scripts on the site. This also means that they cannot interact directly with other scripts within your extension. A process known as [message passing][6] needs to be used - but more on that later. 
 
@@ -65,7 +63,7 @@ The first thing that we've added is the **matches** field. This filters which ur
 
 	alert('Hello World!');
 
-## Loading unpacked extensions in Chrome
+<h2 id="unpackedextensions">Loading unpacked extensions in Chrome</h2>
 
 To load your new extension in to Chrome you need to go to the [extensions settings page][7]. First you'll need to make sure that Developer mode is ticked. This will reveal an option to "Load unpacked extension...". Here you want to navigate to the location of your manifest.json file.
 

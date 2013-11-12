@@ -36,26 +36,23 @@
 }
 
   <!-- Pagination links -->
-<div id="post-pagination" class="post row">
-	@if (Model.HasPreviousPage) {
-		if (Model.PreviousPage == 1) {
-			<p class="previous">
-				<h3><a href="/">Previous Page</a></h3>
-			</p>
-		}
-		else {
-			<p class="previous">
-				<h3><a href="/page@(Model.PreviousPage)">Previous Page</a></h3>
-			</p>
-		}
-	}
-	@if (!Model.HasPreviousPage) {
-	  <!--<a href="/">Previous Page</a>-->
-	}
-	@if (Model.HasNextPage) {
-		<p class="previous">
-			<h3><a href="/page@(Model.NextPage)">Next Page</a></h3>
-		</p>
-	}
+<div id="post-pagination" class="post">
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			@if (Model.HasNextPage) {
+				<h3 class="text-left">
+					<a href="/page@(Model.NextPage)"><i class="fa fa-chevron-circle-left"></i> Older Posts</a>
+				</h3>
+			}
+			@if (Model.HasPreviousPage) {
+				if (Model.PreviousPage == 1) {
+					<h3 class="text-right"><a href="/">Newer Posts <i class="fa fa-chevron-circle-right"></i></a></h3>
+				}
+				else {
+					<h3><a href="/page@(Model.PreviousPage)">Newer Posts <i class="fa fa-chevron-circle-right"></i></a></h3>
+				}
+			}
+		</div>
+	</div>
 </div>
 

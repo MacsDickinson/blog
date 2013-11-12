@@ -4,8 +4,6 @@ category: Cryptography, Security
 title: Caesar Box Cipher in C#
 ---
 
-# Caesar Box Cipher in C#
-
 ## What is a Caesar Box Cipher?
 
 A number of years ago I read Dan Browns [Digital Fortress][1]. Trashy of me I know but this was the first time I had ever acknowledged cryptography. In this book they discuss a number of cryptographic ciphers but the one that stuck out in my mind was the Caesar Box cipher for it simplicity. Surprisingly this encryption technique dates back to the Roman times when Caesar would send information via courier and in order to prevent these instructions being intercepted Caesar would encode them. To do this he would split the message into equal lines and rewrite it vertically.

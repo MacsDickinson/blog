@@ -4,9 +4,7 @@ category: javascript, Localisation
 title: Localising JavaScript strings in ASP.NET
 ---
 
-## Localising JavaScript strings in ASP.NET
-
-In recent years there has been a huge explosion of rich javascript and jquery plugins giving you everything from [drag and drop][1] to [wysiwyg editors][2] and [autocomplete][3] to [fartscroll.js][4]. Using some of these plugins can be a great way to speed up development and cash in on someone else's hard work. However doing this always comes with an element of risk and it may lack the specific details that you require.
+In recent years there has been a huge explosion of rich javascript and jquery plugins giving you everything from [drag and drop][1] to [wysiwyg editors][2] and [autocomplete][3] to [fartscroll.js][4]. Using some of these plugins can be a great way to speed up development and cash in on someone else's hard work. However doing this always comes with an element of risk and it may lack the specific details that you require.
 
 <!--excerpt-->
 
