@@ -134,6 +134,17 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 .top img { padding-right: 11px;}
 .top img:hover { opacity: .7;}
 
+/************Archive************/
+
+.archive h1 {
+	padding: 20px 0;
+}
+
+.archive h2 {
+	font-size: 2em;
+	padding: 0;
+}
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
 
