@@ -17,15 +17,15 @@ Storage techniques aside, we have a major issue here. Not only does anyone who h
 # Hacking into Google Chrome
 
 Time for me to put my black hat on. First things first we need someone to hack. Let's head over to [PasteBinLeaks][3] for some inspiration. This may be old but it will do nicely:
-> Possible Massive mail/pass leak [http://t.co/wy6RKsDm](http://t.co/wy6RKsDm) [#pastebinleaks](https://twitter.com/search?q=%23pastebinleaks&amp;src=hash)
-> 
-> — PastebinLeaks (@PastebinLeaks) [December 16, 2011](https://twitter.com/PastebinLeaks/statuses/147576605844307968)
+
+<blockquote class="twitter-tweet"><p>Possible Massive mail/pass leak <a href="http://t.co/wy6RKsDm">http://t.co/wy6RKsDm</a> <a href="https://twitter.com/search?q=%23pastebinleaks&amp;src=hash">#pastebinleaks</a></p>&mdash; PastebinLeaks (@PastebinLeaks) <a href="https://twitter.com/PastebinLeaks/statuses/147576605844307968">December 16, 2011</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Follow the link and you'll find a big list of usernames, email addresses and hashed passwords, 338 to be precise. But these passwords are hashed - surely that will stop us? Maybe. Probably not. The hash just adds another step to the process. Lets head over to Google and do a search for one of them.
 
 ![Google Search for password hash][4]
 
-The first thing this tells us is that these are MD5 hashes so we now know what to search for. I'm going to ignore that the second result displays the plain text password and head over to [www.md5-hash.com][5] to do a search. There you go - the decrypted text for MD5 hash **297dbe7699dcfa60609bf9e667e2e4dc** is **assword**.
+The first thing this tells us is that these are MD5 hashes so we now know what to search for. I'm going to ignore that the second result displays the plain text password and head over to [www.md5-hash.com][5] to do a search. There you go - the decrypted text for MD5 hash **297dbe7699dcfa60609bf9e667e2e4dc** is **assword**.
 
 Now I'm not particularly patient so there's no way that I'm doing this 337 more times. To speed things up a bit lets take a copy of the file on pastebin, do a little pre processing and run it through a [linqpad][6] script:
 
@@ -55,15 +55,15 @@ Now I'm not particularly patient so there's no way that I'm doing this 337 more 
 		}
 	}
 
-Fast-forward less than four minutes and I've got 51 plain text passwords. This is 15 percent of the original 338 so the MD5 hash has done some good but if we really wanted to crack the other 287 we could. The important thing to point out here is that these 51 passwords are the most generic ones. Common enough for them to have been decrypted and added to the database they have over at md5-hash.com. If you use a secure password it is far less likely to be in there, better yet if it's unique. Of these 51 passwords 11 of them are for gmail accounts - but that doesn't matter because you can log into Chrome with any email account. Anyway, all we need is one person that has reused this email and password for Google - and there are two. So I take my pick, sign into Google Chrome and I get this lovely message:
+Fast-forward less than four minutes and I've got 51 plain text passwords. This is 15 percent of the original 338 so the MD5 hash has done some good but if we really wanted to crack the other 287 we could. The important thing to point out here is that these 51 passwords are the most generic ones. Common enough for them to have been decrypted and added to the database they have over at md5-hash.com. If you use a secure password it is far less likely to be in there, better yet if it's unique. Of these 51 passwords 11 of them are for gmail accounts - but that doesn't matter because you can log into Chrome with any email account. Anyway, all we need is one person that has reused this email and password for Google - and there are two. So I take my pick, sign into Google Chrome and I get this lovely message:
 
 ![Confirm Location][7]
 
-Touché Google, you have done well. If only there was some sort of tool that I could use to search the internet for this kind of information. I mean I have the username and email, I just need something I can use to scan the internet for related information. Any Ideas? Google?
+Touché Google, you have done well. If only there was some sort of tool that I could use to search the internet for this kind of information. I mean I have the username and email, I just need something I can use to scan the internet for related information. Any Ideas? Google?
 
 ![Google Search][8]
 
-With the huge surge in social media these last few years every webmaster and his dog is asking you for personal details so it doesn't take long to find out where the victim lives. Find the nearest city and BINGO! I'm in. All I need to do is give it a few minutes to sync up and head over to [chrome://settings/passwords][9] and there they are.
+With the huge surge in social media these last few years every webmaster and his dog is asking you for personal details so it doesn't take long to find out where the victim lives. Find the nearest city and BINGO! I'm in. All I need to do is give it a few minutes to sync up and head over to [chrome://settings/passwords][9] and there they are.
 
 The point of all this is not to give a how-to but to point out a number of easy ways that this sort of vulnerability can be avoided.
 
@@ -73,7 +73,7 @@ The first and simplest thing you should do is make sure that your password is se
 
 ## Use a unique password
 
-It doesn't matter how strong your password is, if you sign up to a service that stores their passwords without encription it is going to be compromised. I've written about [the importance of using unique passwords][10] before and it's a point I can't stress enough. I was only able to get into these accounts because the victims had used the same password for both Google and Biclops Games. I totally understand why people don't do it but using unique passwords doesn't mean you have to keep a great big list of them any more. Use a proper password manager like LastPass or use my own unique password generator [SecurePass][11]. &lt;-- shameless plug
+It doesn't matter how strong your password is, if you sign up to a service that stores their passwords without encription it is going to be compromised. I've written about [the importance of using unique passwords][10] before and it's a point I can't stress enough. I was only able to get into these accounts because the victims had used the same password for both Google and Biclops Games. I totally understand why people don't do it but using unique passwords doesn't mean you have to keep a great big list of them any more. Use a proper password manager like LastPass or use my own unique password generator [SecurePass][11]. &lt;-- shameless plug
 
 ## Don't save your passwords in your browser
 

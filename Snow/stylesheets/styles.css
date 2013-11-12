@@ -17,6 +17,11 @@ html, body {
 	min-width:300px;
 }
 
+iframe {
+	margin: 10px auto !important;
+	max-width: 100%;
+}
+
 .post {
 	padding-bottom: 10px; 
 	position: relative;

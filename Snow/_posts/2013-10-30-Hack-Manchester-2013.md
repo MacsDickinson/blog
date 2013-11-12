@@ -35,7 +35,7 @@ Beanbags are great for coding on. If you can put up with the heat pouring out of
 The future of Dr Clockwork
 =================
 
-The purpose of creating this service was nothing more than a bit of light hearted fun. That said we will probably extend it a little – just for the crack! We’ve already got [the obligatory twitter account][25] so we will probably add that as a new mechanism to ask questions. It would also be nice to display the messages on the website within conversations. Oh and the obvious thing for us to do is to sell all your mobile numbers to GCHQ ![:P][26]
+The purpose of creating this service was nothing more than a bit of light hearted fun. That said we will probably extend it a little – just for the crack! We’ve already got [the obligatory twitter account][25] so we will probably add that as a new mechanism to ask questions. It would also be nice to display the messages on the website within conversations. Oh and the obvious thing for us to do is to sell all your mobile numbers to GCHQ ! :P
 
 Thanks to the organisers
 ================
