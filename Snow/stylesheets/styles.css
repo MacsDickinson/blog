@@ -47,7 +47,7 @@ pre code {
 		z-index: 9999;
 	}
 
-	.post p {
+	.post p, .project p {
 		margin: 0 25px 10px;
 	}
 .post-pagination {
@@ -220,6 +220,12 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 }
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
+
+@media only screen and (max-width: 768px) {
+	header h1 { 
+		font-size: 3em;
+	}
+}
 
 
 @media only screen and (max-width: 995px) {
@@ -397,98 +403,3 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 		line-height: 12px;
 	}
 }
-/*================================>> 2 Level <<========================================
-.sf-menu > li > ul, 
-.sf-menu > li.sfHover > ul {
-	top: 78px;
-	width: 100%;
-	z-index:99;
-	background: #292f39;
-	text-align: center;
-	padding-top: 38px;
-	padding-bottom: 39px;
-	margin-left: 0px;
-}
-.sf-menu > li > ul > li {height: auto; border: none; margin: 0; padding: 6px 0px;line-height: 12px;}
-
-.sf-menu > li > ul > li > a {
-	color: #555c68;
-	display: inline;
-	font-size: 10px;
-	line-height: 12px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 600;
-}
-.sf-menu li li a:hover, 
-.sf-menu li.sfHover li.sfHover > a,
-.sf-menu li.sfHover li.sfHover span { 
-	text-decoration: none;
-	color: #fff;
-}
-
-.sf-menu li li.sfHover {
-	background: inherit;
-}
-
-.sf-menu > li > ul .sf-sub-indicator {line-height: 10px; color: #292f39; padding-left: 5px;}
-*/
-/*================================>> 3 Level <<========================================
-
-.sf-menu li li ul {
-	left: 154px;
-	top: 0px;
-	width: 155px;
-	z-index:99;
-	background-color: #292f39;
-	position: absolute;
-	padding-top: 23px;
-	padding-bottom: 23px;
-}
-.sf-menu li li li {height: auto; border: none; margin: 0; padding: 5px 0px;}
-.sf-menu li li li a {
-	display: block;
-	padding: 0 0 0 20px;
-}
-.sf-menu li li li:first-child > a {
-	border: none;
-}
-.sf-menu li li li a:hover {	color: #ffffff;}
-.sf-menu > li > li.sfHover > span {
-	color: #ffffff;
-}
-*/
-
-/*==================================RESPONSIVE LAYOUTS===============================================
-
-@media only screen and (max-width: 995px) {
-	nav {margin-bottom: 0px;}
-}
-@media only screen and (max-width: 795px) {
-
-}
-@media only screen and (max-width: 767px) {
-	.sf-menu { display:none !important;}
-
-	nav select {
-		height: 35px;
-		border: 1px solid #1b1b1b;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 14px;
-		line-height: 20px;
-		color: #ffffff;
-		background-color: #ed6c4e;
-		width:100%;
-	    outline: none;
-	    padding: 5px;
-		font-weight: normal;
-		margin-top: 30px;
-	}
-	nav select option:first-child {
-		color:#ffffff;
-	}
-}
-
-@media only screen and (max-width: 479px) {
-	nav {margin-bottom: 0px; height: 70px;}
-}*/
