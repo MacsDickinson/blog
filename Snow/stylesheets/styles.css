@@ -40,6 +40,9 @@ iframe {
 	.post p {
 		margin: 0 25px 10px;
 	}
+.post-pagination {
+	padding-bottom: 0;
+}
 .bg-1 { 
 	background: #51b1c9;
 }
@@ -109,6 +112,7 @@ h2 {
     font-weight: 600;
     text-align: center; 
     padding: 20px 0;
+	margin: 10px 0;
 }
 h2 span { 
     font-size: 16px; 
@@ -117,7 +121,6 @@ h2 span {
     display: block; 
 }
 h3 { 
-	margin: 0;
 	font-weight: 600;
 	font-size: 1.2em;
 	padding: 10px;
