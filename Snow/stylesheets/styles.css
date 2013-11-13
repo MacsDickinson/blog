@@ -22,11 +22,11 @@ iframe {
 	max-width: 100%;
 }
 
-.post {
-	padding-bottom: 10px; 
+.post, .project {
+	padding-bottom: 10px;
 	position: relative;
 }
-	.post:after {
+	.post:after, .project:after {
 		position: absolute;
 		content:"";
 		width: 49px;
@@ -35,6 +35,10 @@ iframe {
 		left: 50%;
 		margin-left: -25px;
 		z-index: 9999;
+	}
+
+	.post p {
+		margin: 0 25px 10px;
 	}
 .bg-1 { 
 	background: #51b1c9;
@@ -68,31 +72,37 @@ img {
 h1, h2, h3, h4, h5, h6 { 
 	font-family: "ff-enzo-web", sans-serif;
 	font-weight: 300;
-}
-header h1 { 
-	font-size: 5em;
-	letter-spacing: -1px;
-	margin-bottom: 20px;
-}
-header h1 span { 
-	font-size: 16px; 
-	line-height: 30px; 
-	color: #68707b;
-	display: block; 
-	letter-spacing: 1px;
+	margin: 0;
 }
 h1 { 
     text-transform: uppercase; 
     font-size: 3em;
     font-weight: 600;
     text-align: center; 
-    padding: 20px 0;
+    padding: 30px 0 20px;
 }
 h1 span { 
     font-size: 16px; 
     line-height: 30px; 
     color: #68707b; 
     display: block; 
+}
+header h1 { 
+    text-transform: none; 
+	font-size: 5em;
+    font-weight: 300;
+	letter-spacing: -1px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+header h1 span { 
+    text-transform: uppercase; 
+	font-size: 16px; 
+	line-height: 30px; 
+    font-weight: 600;
+	color: #68707b;
+	display: block; 
+	letter-spacing: 1px;
 }
 h2 { 
     font-size: 2em;
@@ -107,8 +117,10 @@ h2 span {
     display: block; 
 }
 h3 { 
+	margin: 0;
 	font-weight: 600;
 	font-size: 1.2em;
+	padding: 10px;
 }
 h4 { }
 h5 { }
