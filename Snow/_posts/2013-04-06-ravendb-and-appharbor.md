@@ -4,7 +4,7 @@ category: AppHarbor, RavenDB
 title: Using RavenDB and AppHarbor
 ---
 
-I recently started an ASP.NET MVC 4 project using [RavenDB][1] and one of the first things I've taken a look at is how to implement continuous integration. We are using GitHub for source control so my first thought was [Travis CI][2] but after reading into some of the issues with implementing this with .NET projects I decided to look elsewhere. My next port of call was [AppHarbor][3], I've not used it before but I've heard great things about it. Getting signed up and getting the automated build running was simple. Next I needed to figure out how to use RavenDB and AppHarbor together.
+I recently started an ASP.NET MVC 4 project using [RavenDB][1] and one of the first things I've taken a look at is how to implement continuous integration. We are using GitHub for source control so my first thought was [Travis CI][2] but after reading into some of the issues with implementing this with .NET projects I decided to look elsewhere. My next port of call was [AppHarbor][3], I've not used it before but I've heard great things about it. Getting signed up and getting the automated build running was simple. Next I needed to figure out how to use RavenDB and AppHarbor together.
 
 <!--excerpt-->
 
@@ -16,7 +16,7 @@ Next you want to grab the connection string for your new database. Find RavenHQ 
 
 ## Config Setup
 
-In order to set this connection string in AppHarbor you will want to set up config transformations in Visual Studio. Firstly create a new solution configuration "AppHarbor". Then, right click the web.config and select "Add Config Transform". This will add Web.AppHarbor.config.
+In order to set this connection string in AppHarbor you will want to set up config transformations in Visual Studio. Firstly create a new solution configuration "AppHarbor". Then, right click the web.config and select "Add Config Transform". This will add Web.AppHarbor.config.
 
 If you already have RavenDB set up you will have a connection string set up in your base web.config: (if you don't then [have a read of this][5])
 
@@ -30,14 +30,14 @@ In order to make this play nicely with AppHarbor you need to name the connection
 		<add name="RavenHQ" connectionString="Url=http://localhost:8080/databases/MyDatabase" />
 	</connectionStrings>
 
-Now you need to add the connection string from RavenHQ to to Web.AppHarbor.config:
+Now you need to add the connection string from RavenHQ to to Web.AppHarbor.config:
 
 	<connectionStrings>
 		<add name="RavenHQ" connectionString="Url={your connection string};ApiKey={your api key}"
 		  xdt:Transform="SetAttributes" xdt:Locator="Match(name)"/>
 	</connectionStrings>
 
-Once that is done all you need to do is tell AppHarbor which config transformation to use. Go to your applications settings page and change the environment to AppHarbor.
+Once that is done all you need to do is tell AppHarbor which config transformation to use. Go to your applications settings page and change the environment to AppHarbor.
 
 And that is it. Push your config changes to GitHub and watch the magic happen.
 
