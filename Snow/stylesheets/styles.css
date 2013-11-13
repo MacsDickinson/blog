@@ -277,10 +277,6 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 	border-top: none;
 }
 
-.navbar-header {
-	background-color: #292f39;
-}
-
 .navbar-nav {
 	margin:  0;
 }
@@ -303,7 +299,6 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 	display:block;
 	padding: 20px 0;
 	text-align: center;
-	background: #323a45 url(../images/menu-bg-1.png) center 100px no-repeat;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-out;
@@ -317,7 +312,7 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 
 .sf-menu > li.current > a,
 .sf-menu > li:hover > a {
-	background: #292f39 url(../images/menu-bg-1.png) center bottom no-repeat;
+	background: #292f39;
 	border-bottom:none;
 }
 
@@ -381,6 +376,9 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 		-webkit-transition: background 0.3s ease-out;
 		transition: background 0.3s ease;
 	}
+	.sf-menu > li > a {
+		background: #323a45 url(../images/menu-bg-1.png) center 100px no-repeat;
+	}
 	.sf-menu > li.current > a,
 	.sf-menu > li:hover > a {
 		padding: 31px 32px 31px;
@@ -389,6 +387,7 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 		-o-transition: all 0.3s ease-out;
 		-webkit-transition: all 0.3s ease-out;
 		transition: all 0.3s ease;
+		background: #292f39 url(../images/menu-bg-1.png) center bottom no-repeat;
 	}
 
 	.sf-menu li span {
