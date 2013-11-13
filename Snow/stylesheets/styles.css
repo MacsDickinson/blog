@@ -22,6 +22,16 @@ iframe {
 	max-width: 100%;
 }
 
+pre {
+	background-color: transparent;
+	border: none;
+	padding: 0 25px;
+}
+
+pre code {
+	background-color: #292f39;
+}
+
 .post, .project {
 	padding-bottom: 10px;
 	position: relative;
