@@ -2,7 +2,7 @@
 published: draft
 layout: post
 category: EventStore, Nancy
-title: Event Store - with examples in NancyFx
+title: When Nancy met Event Store
 ---
 
 There's a new kid on the document database block it it's name is [Event Store][0]. Event store is an open source document database with a difference; it supports the concept of event sourcing.
