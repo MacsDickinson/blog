@@ -9,11 +9,11 @@ There's a new kid on the document database block it it's name is [Event Store][0
 
 In this post I am going to take a look at hooking Event Store into a simple Nancy web project using the Event Store .Net API.
 
-1.  [What is Event Sourcing?](#event-sourcing)
-2.  [Setting up a local Event Store server](#server-setup)
-3.  [Hooking it up to NancyFX](#nancy) 
-4.  [Managing Streams](#streams)
-5.  [Conclusion](#conclusion)
+#  [What is Event Sourcing?](#event-sourcing)
+#  [Setting up a local Event Store server](#server-setup)
+#  [Hooking it up to NancyFX](#nancy) 
+#  [Managing Streams](#streams)
+#  [Conclusion](#conclusion)
 
 ![Event Store Logo][3]
 
@@ -25,7 +25,7 @@ Event sourcing is an approach to data persistance different to that of a relatio
 
 <h2 id="server-setup">Setting up a local Event Store server</h2>
 
-There is no in memory offering from Event Store so if you want to develop against it you're going to need to set up a local server. Head over to the [Event Store downloads][0] page and grab the latest stable release. Within the package there is the EventStore.SingleNode executible. This is what you want to run. Note that this needs admin privilages in order to setup the HTTP server. This will setup your Event Store server at [http://127.0.0.1:2113/][2].
+There is no in memory offering from Event Store so if you want to develop against it you're going to need to set up a local server. Head over to the [Event Store downloads page][0] and grab the latest stable release. Within the package there is the EventStore.SingleNode executible. This is what you want to run. Note that this requires admin privilages in order to setup the HTTP server. Once this is running you can visit the http management studio at [http://127.0.0.1:2113/][2]. There is a lot of goodness in here; you can run through an example implementation, take a look at stored streams, set up projections, query the data, view live stats and so on. However; in order to do anything useful you will need to log in as the admin. The default password is changeme. You should change this once logged on.
 
 <h2 id="nancy">Hooking it up to NancyFX</h2>
 
@@ -65,44 +65,49 @@ Once you've got this you're going to want to open a connection on application st
 		container.Register(connection);
 	}
 
-With this in place we can inject our connection into our modules and read and write from the desired streams.
-
 <h2 id="streams">Managing Streams</h2>
+
+With the connection in our IoC container we can simply inject it into our modules where we can interact with our desired streams.
 
 	public class BlameModule : NancyModule
 	{
-		private readonly IEventStoreConnection _eventStoreConnection;
+		private readonly IEventStoreConnection _connection;
 
 		public BaseModule(IEventStoreConnection connection)
 		{
-			_eventStoreConnection = connection;
+			_connection = connection;
 
-			Get["/GetBlames"] = ಠ_ಠ =>
-				{
-					var stream = _eventStoreConnection.ReadStreamEventsBackward("Blames", -1, int.MaxValue, true);
-					return stream.Events.Select(streamEvent => streamEvent.Event.Data.ParseJson<Blame>());
-				};
-
-			Post["/Add"] = ಠ_ಠ =>
-				{
-					var model = this.Bind<Blame>();
-
-					var eventData = new List<EventData>
-						{
-							new EventData(Guid.NewGuid(), "Blame", true, model.ToJsonBytes(), null)
-						};
-					_eventStoreConnection.AppendToStream("Blames", ExpectedVersion.Any, eventData);
-					return null;
-				};
 		}
 	}
 
+When reading we take events from the top of the stack, most recent first. In this example I am requesting all events (-1 to int.MaxValue) from the "Blames" stream and then parsing them to the Blame object.
+
+    Get["/GetBlames"] = __ =>
+        {
+            var stream = _connection.ReadStreamEventsBackward("Blames", -1, int.MaxValue, true);
+            return stream.Events.Select(x => x.Event.Data.ParseJson<Blame>());
+        };
+
+Writing to a stream is also straight forward. We save our object as EventData, this holds the id, type, data and meta data for your model. We then append the EventData to the corresponding stream.
+
+    Post["/Add"] = __ =>
+        {
+            var model = this.Bind<Blame>();
+
+            var eventData = new List<EventData>
+                {
+                    new EventData(Guid.NewGuid(), "Blame", true, model.ToJsonBytes(), new { DateAdded = DateTime.Now }.ToJsonBytes())
+                };
+            _eventStoreConnection.AppendToStream("Blames", ExpectedVersion.Any, eventData);
+            return null;
+        };
+
 <h2 id="conclusion">Conclusion</h2>
 
-Event Store gives us a fresh perspective on how to handle our data. It may be a niche perspective that wont always be appropriate for your application but it is another option that you can consider when at the drawing board. Event Store has a lot going for it but it is still young, there are a couple of things that - in my humble opinion - could really improve adoption.
+Event Store gives us a fresh perspective on how to handle our data. It may be a niche angle and it wont be appropriate for every application but it is another option that can be considered when at the drawing board. Event Store has a lot going for it but it is still young, there are a couple of things that - in my humble opinion - could really boost user adoption.
 
-1.  Improved documentation - The documentation is community submitted and hosted on Github so this one is down to all of us. The documentation on here is good but it could do with there being a lot more.
-2.  Plug and play - Getting the local server set up is a bit of a faff at the moment. Event source could benefit from a Raven style in memory version for development that can be pulled in from NuGet.
+1.  Improved documentation - There is a lot of information on the docs on Github but they're not the easiest read. They could really benefit with a number of step by step guides with examples, much like the Nancy docs. Documentation is community submitted on Github so adding this is down to all of us.
+2.  Plug and play - Event Store could benefit from a Raven style in-memory version that could be pulled in from NuGet. Setting up a local server isn't difficult but being able to pull everything that need from NuGet really adds to the simplicity of the product.
 
    [0]: http://geteventstore.com "Get Event Store"
    [1]: http://download.geteventstore.com/ "Event Store downloads"
