@@ -9,7 +9,7 @@ Setting up a new PC is always a bit of a bore, you end up spending days download
 <blockquote class="twitter-tweet"><p><a href="https://twitter.com/mattscode">@mattscode</a> <a href="https://twitter.com/MacsDickinson">@MacsDickinson</a> Chocolatey is amazing. Can get VS and everything for you <a href="http://t.co/V5cBlbtswr">http://t.co/V5cBlbtswr</a></p>&mdash; Jason Mitchell (@jmitch18) <a href="https://twitter.com/jmitch18/statuses/365116400865525761">August 7, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-And he was right. **[Chocolatey][1] is amazing!** It uses NuGet to download and install windows applications - all you have to do is run through the odd installation wizard.
+And he was right. **[Chocolatey][1] is amazing!** It uses NuGet to download and install windows applications - all you have to do is run through the odd installation wizard.
 
 <!--excerpt-->
 

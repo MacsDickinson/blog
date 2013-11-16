@@ -1,22 +1,22 @@
 ---
 layout: post
 category: SecurePass, Security
-title: Unique Passwords – Why you need them and why SecurePass
+title: Unique Passwords - Why you need them and why SecurePass
 ---
 
 ## What are the risks?
 
-Password safety is increasingly the victim of bad press; rather unsurprisingly this is down to a lack of security. Whether it’s [passwords being stored in plain text][1] or [yet another security breach][2], hackers are getting hold of passwords. While this is a problem, it is not the most pressing issue that I am concerned about. My concern is with password reuse highlighting the importance of using unique passwords. How many of you use the same password to log-in to numerous accounts over the internet, unaware of the risks you face from hackers?
+Password safety is increasingly the victim of bad press; rather unsurprisingly this is down to a lack of security. Whether it's [passwords being stored in plain text][1] or [yet another security breach][2], hackers are getting hold of passwords. While this is a problem, it is not the most pressing issue that I am concerned about. My concern is with password reuse highlighting the importance of using unique passwords. How many of you use the same password to log-in to numerous accounts over the internet, unaware of the risks you face from hackers?
 
 <!--excerpt-->
 
-When Linkedin had its passwords leaked, hackers didn't just get into Linkedin accounts, they also got into Facebook, Google, Amazon; the list goes on. And what is most alarming is that these accounts actually contain your credit card details - anyone use [Google Wallet][3]? That’s just the start - once the hacker has gained access to a few commonly used websites they have more than enough information to do some real damage.
+When Linkedin had its passwords leaked, hackers didn't just get into Linkedin accounts, they also got into Facebook, Google, Amazon; the list goes on. And what is most alarming is that these accounts actually contain your credit card details - anyone use [Google Wallet][3]? That's just the start - once the hacker has gained access to a few commonly used websites they have more than enough information to do some real damage.
 
 ![hacking password security][4]
 
 ## So what can you do?
 
-Run to your computer and change all of your passwords to be unique? But how are you supposed to remember which account uses which password? This is where password storage programmes come in – of course, until the program storing your passwords gets hacked. What you need is a unique password generator that generates your password for you as and when you need one.
+Run to your computer and change all of your passwords to be unique? But how are you supposed to remember which account uses which password? This is where password storage programmes come in - of course, until the program storing your passwords gets hacked. What you need is a unique password generator that generates your password for you as and when you need one.
 
 ## Unique Passwords
 

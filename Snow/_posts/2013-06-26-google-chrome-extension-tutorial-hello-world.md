@@ -8,7 +8,7 @@ series:
     part: Part 1: Hello World
 ---
 
-This is the first post in a series of tutorials on building Google Chrome extensions. Google Chrome has established itself as the browser of choice [boasting a 50%+ market share][2] since March. Part of its success is Google's willingness to let developers extend and improve it. I have been getting to know the extensions platform for some time now and I thought it would be a good idea to document my findings as I delve deeper into the abyss.
+This is the first post in a series of tutorials on building Google Chrome extensions. Google Chrome has established itself as the browser of choice [boasting a 50%+ market share][2] since March. Part of its success is Google's willingness to let developers extend and improve it. I have been getting to know the extensions platform for some time now and I thought it would be a good idea to document my findings as I delve deeper into the abyss.
 
 ![Chrome Extension Tutorial][1]
 
@@ -22,13 +22,13 @@ The concepts we will be covering today are:
 2.  [Content Scripts](#contentscripts)
 3.  [Loading Unpacked Extensions](#unpackedextensions)
 
-Before we get started it is worth pointing out that creating Google Chrome extensions does require a fair level of JavaScript knowledge. If you are not familiar with JavaScript then take a look on [W3Schools][3] and work your way through the courses at [CodeAcademy][4].
+Before we get started it is worth pointing out that creating Google Chrome extensions does require a fair level of JavaScript knowledge. If you are not familiar with JavaScript then take a look on [W3Schools][3] and work your way through the courses at [CodeAcademy][4].
 
 <h2 id="manifest">Manifest Files</h2>
 
-Think of this as the skeleton of your extension; it is where you tell Chrome everything it needs to know and where to load any resources it’ll need. In reality it is nothing more than a JSON document called manifest.json that specifies all the important information about your extension. I am only going to cover a few of the fields that you can specify in in the manifest file. For an extensive list of what else is available take a look at the [Google API docs][5].
+Think of this as the skeleton of your extension; it is where you tell Chrome everything it needs to know and where to load any resources it'll need. In reality it is nothing more than a JSON document called manifest.json that specifies all the important information about your extension. I am only going to cover a few of the fields that you can specify in in the manifest file. For an extensive list of what else is available take a look at the [Google API docs][5].
 
-Before we get into the interesting bits we need to add a few required fields; **name** , **version** and **manifest_version**. The first two are pretty self explanatory and manifest_version just specifies which manifest schema is used. You want this to be **2** unless you are building for an old version of Chrome. It is also best practice to add **description**, **homepage_url** and **icons** but for simplicity I will be leaving the icons out.
+Before we get into the interesting bits we need to add a few required fields; **name** , **version** and **manifest_version**. The first two are pretty self explanatory and manifest_version just specifies which manifest schema is used. You want this to be **2** unless you are building for an old version of Chrome. It is also best practice to add **description**, **homepage_url** and **icons** but for simplicity I will be leaving the icons out.
 
 	{
 		"name" : "Chrome Extension Tutorial",

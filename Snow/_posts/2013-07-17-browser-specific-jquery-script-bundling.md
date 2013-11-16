@@ -4,7 +4,7 @@ category: ASP.NET, javascript, jquery
 title: Browser specific JQuery script bundling
 ---
 
-Script bundling has become a standard feature for all my recent projects, it simplifies and centralises script management. But what can you do if you need to load different scripts based on the users browser? For example, if you’re using JQuery 2.x but have to support lower versions of IE you're going to want to specify a supported version of JQuery. Luckily script bundles work much the same as normal script references.
+Script bundling has become a standard feature for all my recent projects, it simplifies and centralises script management. But what can you do if you need to load different scripts based on the users browser? For example, if you're using JQuery 2.x but have to support lower versions of IE you're going to want to specify a supported version of JQuery. Luckily script bundles work much the same as normal script references.
 
 <!--excerpt-->
 

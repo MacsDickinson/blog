@@ -92,5 +92,5 @@ This is definitely a security risk and it is something that Google should look i
    [7]: /../images/2013-08-08-11_55_26-Confirm-Location.png
    [8]: /../images/2013-08-08-22_27_53-Google-Search.png
    [9]: chrome://settings/passwords
-   [10]: http://www.macsentom.co.uk/2013/05/unique-password-generator-securepass/ (Unique Passwords – Why you need them and why SecurePass)
+   [10]: http://www.macsentom.co.uk/2013/05/unique-password-generator-securepass/ (Unique Passwords - Why you need them and why SecurePass)
    [11]: http://www.macsentom.co.uk/securepass (SecurePass)

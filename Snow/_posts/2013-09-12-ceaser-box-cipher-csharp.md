@@ -48,7 +48,7 @@ Then it is simply a case of looping through the lines and building up the new me
         }
     }
 
-An that is it. Here’s the whole method for you lazy Romans.
+An that is it. Here's the whole method for you lazy Romans.
 
 	public string SolveCaesarBox(string input, int boxLength)
 	{
@@ -74,7 +74,7 @@ An that is it. Here’s the whole method for you lazy Romans.
 
 ## GCHQ :: Can you find it?
 
-You may have seen [GCHQ’s most recent recruitment drive][2]&nbsp;in the news. Basically they have hidden a number of encrypted messages around the internet for you the crack and submit at&nbsp;[https://canyoufindit.co.uk][3]. Now that you know about the Caesar Box this first one should be pretty simple.
+You may have seen [GCHQ's most recent recruitment drive][2]&nbsp;in the news. Basically they have hidden a number of encrypted messages around the internet for you the crack and submit at&nbsp;[https://canyoufindit.co.uk][3]. Now that you know about the Caesar Box this first one should be pretty simple.
 
 ![Can you find it - Caesar Box][4]
 
