@@ -9,15 +9,15 @@ There's a new kid on the document database block it it's name is [Event Store][0
 
 In this post I am going to take a look at hooking Event Store into a simple Nancy web project using the Event Store .Net API.
 
-#  [What is Event Sourcing?](#event-sourcing)
-#  [Setting up a local Event Store server](#server-setup)
-#  [Hooking it up to NancyFX](#nancy) 
-#  [Managing Streams](#streams)
-#  [Conclusion](#conclusion)
-
 ![Event Store Logo][3]
 
 <!--excerpt-->
+
+1.  [What is Event Sourcing?](#event-sourcing)
+2.  [Setting up a local Event Store server](#server-setup)
+3.  [Hooking it up to NancyFX](#nancy) 
+4.  [Managing Streams](#streams)
+5.  [Conclusion](#conclusion)
 
 <h2 id="event-sourcing">What is Event Sourcing?</h2>
 
