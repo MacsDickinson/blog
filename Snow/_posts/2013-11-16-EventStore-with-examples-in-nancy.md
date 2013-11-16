@@ -76,7 +76,6 @@ With the connection in our IoC container we can simply inject it into our module
 		public BaseModule(IEventStoreConnection connection)
 		{
 			_connection = connection;
-
 		}
 	}
 
@@ -104,13 +103,14 @@ Writing to a stream is also straight forward. We save our object as EventData, t
 
 <h2 id="conclusion">Conclusion</h2>
 
-Event Store gives us a fresh perspective on how to handle our data. It may be a niche angle and it wont be appropriate for every application but it is another option that can be considered when at the drawing board. Event Store has a lot going for it but it is still young, there are a couple of things that - in my humble opinion - could really boost user adoption.
+Event Store gives us a fresh perspective on how to handle our data. It's a bit of a niche angle and it wont be appropriate for every application but it is another possibility to be aware of when at the drawing board. Event Store has a lot going for it but it is still young. There are a couple of things that - in my humble opinion - could really boost user adoption.
 
-1.  Improved documentation - There is a lot of information on the docs on Github but they're not the easiest read. They could really benefit with a number of step by step guides with examples, much like the Nancy docs. Documentation is community submitted on Github so adding this is down to all of us.
-2.  Plug and play - Event Store could benefit from a Raven style in-memory version that could be pulled in from NuGet. Setting up a local server isn't difficult but being able to pull everything that need from NuGet really adds to the simplicity of the product.
+1.  Improved documentation - There is a lot of information on the Github docs but it's not the easiest read. This could really benefit with some step by step guides with a few examples, much like the [Nancy docs][5]. Documentation is community submitted on Github so adding to this is down to all of us.
+2.  Plug and play - Event Store could really benefit from a Raven style in-memory offering that could be pulled in from NuGet. Setting up a local server isn't difficult but being able to pull everything that need from NuGet really adds to the simplicity of the product. Not having an in-memory option is also a bit of a blocking point when it comes to unit testing your application.
 
    [0]: http://geteventstore.com "Get Event Store"
    [1]: http://download.geteventstore.com/ "Event Store downloads"
    [2]: http://127.0.0.1:2113/
    [3]: /../images/event-store.png "event store logo"
    [4]: https://github.com/eventstore/eventstore/wiki/Event-Sourcing-Basics "Event Sourcing Basics"
+   [5]: https://github.com/NancyFx/Nancy/wiki/Documentation
