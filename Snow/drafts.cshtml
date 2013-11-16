@@ -16,13 +16,23 @@
 	</div>
 }
 
-<div class="post">
-	<div class="row">
-  		<div class="col-sm-6 col-sm-offset-3 categories">
-				<h1>Drafts</h1>
-			  	@foreach(var draft in Model.Drafts){
-					<h2><a href="@draft.Url" title="@draft.Title">@draft.Title</a></h2>
-				}
+@foreach(var draft in Model.Drafts) {
+	<div class="post">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h1>
+					<a href="@draft.Url">@draft.Title</a>
+					<span>@draft.Date.ToString("dd MMM yyyy")</span>
+				</h1>
+				@* @Html.RenderSeries(draft) *@
+				<p>
+					@foreach (var category in draft.Categories) {
+						<a class="btn btn-default btn-sm" href="/category/@category"><i class="fa fa-tag"></i> @category</a>
+					}
+				</p>
+				@Html.Raw(draft.ContentExcerpt)
+				<p class="read-more tk-ff-enzo-web"><a href="@draft.Url">&lt; Read More &gt;</a></p>
+			</div>
 		</div>
 	</div>
-</div>
+}
