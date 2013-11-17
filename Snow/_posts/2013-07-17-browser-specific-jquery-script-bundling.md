@@ -1,6 +1,6 @@
 ---
 layout: post
-category: ASP.NET, javascript, jquery
+category: jquery, ASP.NET, javascript
 title: Browser specific JQuery script bundling
 ---
 

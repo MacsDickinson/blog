@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Chrome Extension, javascript
+category: javascript, Chrome Extension
 title: Google Chrome Extension Tutorials: Hello World
 series: 
 	name: Google Chrome Extensions 101
