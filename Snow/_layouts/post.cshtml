@@ -16,10 +16,10 @@
 <div class="post">
 	<div class="row">
   		<div class="col-sm-8 col-sm-offset-2">
-			<h2>
+			<h1>
 				@Model.Title
 				<span>@Model.PostDate.ToString("dd MMM yyyy")</span>
-			</h2>
+			</h1>
 			<p>
 				@foreach (var category in Model.Categories) {
 					<a class="btn btn-default btn-sm" href="/category/@category.Url"><i class="fa fa-tag"></i> @category.Name</a>
