@@ -1,5 +1,4 @@
 ---
-published: draft
 layout: post
 category: EventStore, Nancy
 title: When Nancy met Event Store
