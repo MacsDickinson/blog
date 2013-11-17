@@ -32,7 +32,7 @@ Plugging the .NET client API into a VS project is easy, it's just a case of pull
 
 	PM> Install-Package EventStore.Client
 
-With this installed you can look at creating a connection provider for EventStore. This will be responsible creating the connection to the TCP end point.
+With this installed you can look at creating a connection provider for EventStore. This will be responsible for creating the connection to the TCP end point.
 
     public class EventStoreConnectionProvider
     {
@@ -66,7 +66,7 @@ Once you've got this you're going to want to open a connection on application st
 
 <h2 id="streams">Managing Streams</h2>
 
-With the connection in our IoC container we can simply inject it into our modules where we can interact with our desired streams.
+With the connection in your IoC container you can simply inject it into your modules and start interacting with the desired streams.
 
 	public class BlameModule : NancyModule
 	{
@@ -78,7 +78,7 @@ With the connection in our IoC container we can simply inject it into our module
 		}
 	}
 
-When reading we take events from the top of the stack, most recent first. In this example I am requesting all events (-1 to int.MaxValue) from the "Blames" stream and then parsing them to the Blame object.
+In the next example I am requesting all events (-1 to int.MaxValue) from the top of the "Blames" stream. I'm doing this to get the latest events first. I'm then parsing each Json event to my local Blame object.
 
     Get["/GetBlames"] = __ =>
         {
@@ -86,7 +86,7 @@ When reading we take events from the top of the stack, most recent first. In thi
             return stream.Events.Select(x => x.Event.Data.ParseJson<Blame>());
         };
 
-Writing to a stream is also straight forward. We save our object as EventData, this holds the id, type, data and meta data for your model. We then append the EventData to the corresponding stream.
+Writing to a stream is also straight forward. First save your object as EventData, this holds the id, type, data and meta data for your model. Then simply append the EventData to the corresponding stream.
 
     Post["/Add"] = __ =>
         {
@@ -102,12 +102,12 @@ Writing to a stream is also straight forward. We save our object as EventData, t
 
 <h2 id="conclusion">The Verdict</h2>
 
-Event Store gives us a fresh perspective on how to handle our data. It's a bit of a niche angle and it wont be appropriate for every application but it is another way of working that it is worth being aware of when you're at the drawing board. Event Store has a lot going for it but it is still young. There are a couple of things that - in my humble opinion - could really boost user adoption.
+Event Store gives a fresh perspective on how to handle your data. It's a bit of a niche angle and it wont be appropriate for every application but it is another way of working that it is well worth being aware of when you're at the drawing board. Event Store has a lot going for it but it is still young. There are a couple of things that - in my humble opinion - could really boost user adoption.
 
-1.  Improved documentation - There is a lot of information on the Github docs but it's not the easiest read. This could really benefit with some step by step guides with a few examples, much like the [Nancy docs][5]. Documentation is community submitted on Github so adding to this is down to all of us.
-2.  Plug and play - Event Store could really benefit from a Raven style in-memory offering that could be pulled in from NuGet. Setting up a local server isn't difficult but being able to pull everything that need from NuGet really adds to the simplicity of the product. Not having an in-memory option is also a bit of a blocking point when it comes to unit testing your application.
+1.  Improved documentation - There is a lot of information on the Github docs but it isn't the easiest read. This could really benefit with some step by step guides with a few examples, much like the [Nancy docs][5]. Documentation is community submitted on Github so adding to this is down to all of us.
+2.  Plug and play - Event Store could really benefit from a Raven style in-memory offering that could be pulled in from NuGet. Setting up a local server isn't difficult but being able to pull everything  from NuGet really adds to the simplicity of the product. Not having an in-memory option is also a bit of a blocking point when it comes to unit testing your application.
 
-The code that I have mentioned in this post can be [found on GitHub][6] in the prototype - Code Blame. I will be updating this over time to show off some more features of Event Store for future posts. I'm in the process of getting [Event Store set up in Azure][7] so expect a live version of this site up soon.
+The code that I have sampled in this post can be [found on GitHub][6] in the prototype - Code Blame. I will be updating this over time to show off some more features of Event Store for future posts. I'm in the process of getting [Event Store set up in Azure][7] so expect a live version of this site up soon.
 
    [0]: http://geteventstore.com "Get Event Store"
    [1]: http://download.geteventstore.com/ "Event Store downloads"
