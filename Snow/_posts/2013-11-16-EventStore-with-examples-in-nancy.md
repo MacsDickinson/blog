@@ -20,7 +20,7 @@ In this post I am going to take a look at hooking Event Store into a simple Nanc
 
 <h2 id="event-sourcing">What is Event Sourcing?</h2>
 
-Event sourcing is an approach to data persistance different to that of a relational or a traditional document database. Instead of persisting the state of your data you maintain a sequence of events that have taken place and play them back to get the current state. Recorded events are immutable therefore if the state is updated another event is recorded, and if an object is deleted you simply record an event that describes this. There are a number of different approaches that can be taken from this concept, each with their own benefits. For more detailed information on event sourcing see [this post on the event store wiki][4].
+Event sourcing is an approach to data persistance different to that of a relational or document database. Instead of persisting the state of your data you maintain a sequence of events that have taken place and play them back to get the current state. Recorded events are immutable therefore if the state is updated another event is recorded, and if an object is deleted you simply record an event that describes this. There are a number of different approaches that can be taken from this concept, each with their own benefits. For more detailed information on event sourcing see [this post on the event store wiki][4].
 
 <h2 id="server-setup">Setting up a local Event Store server</h2>
 
