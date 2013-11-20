@@ -4,7 +4,7 @@ category: EventStore, Nancy
 title: When Nancy met Event Store
 ---
 
-There's a new kid on the document database block and it's name is [Event Store][0]. Event store is an open source document database with a difference; it supports the concept of event sourcing.
+There's a new kid on the database front and it's name is [Event Store][0]. Event store is an open source, functional database that supports the concept of event sourcing.
 
 In this post I am going to take a look at hooking Event Store into a simple Nancy web project using the Event Store .Net API.
 
