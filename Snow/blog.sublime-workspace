@@ -44,10 +44,18 @@
 	"buffers":
 	[
 		{
-			"file": "rss.xml",
+			"file": "_posts/2013-12-10-NDC-London-2013.md",
 			"settings":
 			{
-				"buffer_size": 910,
+				"buffer_size": 6590,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_layouts/default.cshtml",
+			"settings":
+			{
+				"buffer_size": 3856,
 				"line_ending": "Windows"
 			}
 		}
@@ -55,9 +63,13 @@
 	"build_system": "Packages/User/Snow.sublime-build",
 	"command_palette":
 	{
-		"height": 380.0,
+		"height": 288.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
 			[
 				"mark",
 				"Markdown Preview: Python Markdown: Preview in Browser"
@@ -120,6 +132,9 @@
 	},
 	"file_history":
 	[
+		"/C/Development/GitHub/blog/Snow/stylesheets/styles.css",
+		"/C/Development/GitHub/blog/Snow/_posts/2013-12-12-Hello-Sandra-Snow.md",
+		"/C/Development/GitHub/blog/Snow/rss.xml",
 		"/C/Development/GitHub/blog/blog.sublime-project",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-11-25-Hello-Sandra-Snow.md",
 		"/C/Users/macs.dickinson/AppData/Roaming/Sublime Text 3/Packages/User/Snow.sublime-build",
@@ -131,7 +146,6 @@
 		"/C/Development/GitHub/blog/Snow/_posts/2013-06-26-google-chrome-extension-tutorial-hello-world.md",
 		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
 		"/C/Development/GitHub/blog/Snow/CNAME",
-		"/C/Development/GitHub/blog/Snow/stylesheets/styles.css",
 		"/C/Development/GitHub/blog/Snow/archive.cshtml",
 		"/C/Development/GitHub/blog/Snow/categories.cshtml",
 		"/C/Development/GitHub/blog/Snow/category.cshtml",
@@ -163,6 +177,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"selection",
 			" ",
 			"Â",
 			"pad-bot"
@@ -184,31 +199,57 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "rss.xml",
+					"file": "_posts/2013-12-10-NDC-London-2013.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 910,
+						"buffer_size": 6590,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								454,
+								454
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/default.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1435,
+								1435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
