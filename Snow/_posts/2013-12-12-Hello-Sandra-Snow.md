@@ -10,6 +10,8 @@ The structure of a Snow blog is simple - a [Razor][2] site defines your template
 
 From here on I will be taking Davids approach of adding Snow.exe into a _compiler subfolder and code samples will referring to my [blog on GitHub][9].
 
+<!--excerpt-->
+
 Setting up Sandra locally
 -------------------------
 
