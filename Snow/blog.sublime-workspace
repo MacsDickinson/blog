@@ -44,27 +44,11 @@
 	"buffers":
 	[
 		{
-			"file": "_layouts/default.cshtml",
+			"file": "blog.sublime-project",
 			"settings":
 			{
-				"buffer_size": 3825,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "web.config",
-			"settings":
-			{
-				"buffer_size": 1034,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snow.config",
-			"settings":
-			{
-				"buffer_size": 622,
-				"line_ending": "Windows"
+				"buffer_size": 74,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -148,6 +132,9 @@
 	},
 	"file_history":
 	[
+		"/C/Code/Github/blog/Snow/snow.config",
+		"/C/Code/Github/blog/Snow/_layouts/default.cshtml",
+		"/C/Code/Github/blog/Snow/web.config",
 		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
 		"/C/Development/GitHub/blog/Snow/_layouts/default.cshtml",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-12-10-NDC-London-2013.md",
@@ -184,7 +171,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -216,88 +203,29 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/default.cshtml",
+					"file": "blog.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3825,
+						"buffer_size": 74,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2740,
-								2740
+								61,
+								61
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 585.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "web.config",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1034,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1034
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "snow.config",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								622,
-								622
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

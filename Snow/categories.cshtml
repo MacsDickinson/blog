@@ -17,7 +17,7 @@
 <div class="post">
 	<div class="row">
   		<div class="col-sm-6 col-sm-offset-3 categories">
-			  @foreach(var category in Model.Categories){
+			  @foreach(var category in Model.AllCategories){
 			  	<h2><a href="/category/@category.Url" title="@category.Name">@category.Name (@category.Count)</a>
 			  	</h2>
 			  }
