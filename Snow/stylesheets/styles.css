@@ -17,6 +17,13 @@ html, body {
 	min-width:300px;
 }
 
+::selection {
+	background: #51b1c9;
+	}
+::-moz-selection {
+	background: #51b1c9;
+}
+
 iframe {
 	margin: 10px auto !important;
 	max-width: 100%;
