@@ -44,18 +44,26 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2013-12-10-NDC-London-2013.md",
+			"file": "_layouts/default.cshtml",
 			"settings":
 			{
-				"buffer_size": 6590,
+				"buffer_size": 3825,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_layouts/default.cshtml",
+			"file": "web.config",
 			"settings":
 			{
-				"buffer_size": 3856,
+				"buffer_size": 1034,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "snow.config",
+			"settings":
+			{
+				"buffer_size": 622,
 				"line_ending": "Windows"
 			}
 		}
@@ -63,9 +71,17 @@
 	"build_system": "Packages/User/Snow.sublime-build",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 150.0,
 		"selected_items":
 		[
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
@@ -132,6 +148,9 @@
 	},
 	"file_history":
 	[
+		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
+		"/C/Development/GitHub/blog/Snow/_layouts/default.cshtml",
+		"/C/Development/GitHub/blog/Snow/_posts/2013-12-10-NDC-London-2013.md",
 		"/C/Development/GitHub/blog/Snow/stylesheets/styles.css",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-12-12-Hello-Sandra-Snow.md",
 		"/C/Development/GitHub/blog/Snow/rss.xml",
@@ -142,9 +161,7 @@
 		"/C/Development/GitHub/blog/Snow/_posts/2013-10-30-Hack-Manchester-2013.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-11-16-EventStore-with-examples-in-nancy.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-07-17-browser-specific-jquery-script-bundling.md",
-		"/C/Development/GitHub/blog/Snow/_layouts/default.cshtml",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-06-26-google-chrome-extension-tutorial-hello-world.md",
-		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
 		"/C/Development/GitHub/blog/Snow/CNAME",
 		"/C/Development/GitHub/blog/Snow/archive.cshtml",
 		"/C/Development/GitHub/blog/Snow/categories.cshtml",
@@ -199,29 +216,59 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2013-12-10-NDC-London-2013.md",
+					"file": "_layouts/default.cshtml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6590,
+						"buffer_size": 3825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								454,
-								454
+								2740,
+								2740
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "web.config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1034
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -230,26 +277,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "_layouts/default.cshtml",
+					"buffer": 2,
+					"file": "snow.config",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3856,
+						"buffer_size": 622,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1435,
-								1435
+								622,
+								622
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
