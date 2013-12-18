@@ -43,29 +43,13 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
-			"settings":
-			{
-				"buffer_size": 2360,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/User/Snow.sublime-build",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 150.0,
 		"selected_items":
 		[
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"mark",
-				"Set Syntax: Markdown"
-			],
 			[
 				"javs",
 				"Set Syntax: JavaScript"
@@ -77,6 +61,10 @@
 			[
 				"html",
 				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
 			],
 			[
 				"install",
@@ -107,6 +95,10 @@
 				"Set Syntax: Razor"
 			],
 			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				"packa",
 				"Package Control: Install Package"
 			]
@@ -132,15 +124,11 @@
 	},
 	"file_history":
 	[
-		"/C/Code/Github/blog/Snow/_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
-		"/C/Code/Github/blog/Snow/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
-		"/C/Code/Github/blog/Snow/web.config",
-		"/C/Code/Github/blog/Snow/categories.cshtml",
-		"/C/Code/Github/blog/Snow/snow.config",
-		"/C/Code/Github/blog/Snow/blog.sublime-project",
-		"/C/Code/Github/blog/Snow/_layouts/default.cshtml",
-		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
+		"/C/Development/GitHub/blog/Snow/snow.config",
+		"/C/Development/GitHub/blog/Snow/web.config",
 		"/C/Development/GitHub/blog/Snow/_layouts/default.cshtml",
+		"/C/Users/macs.dickinson/Downloads/cmder_full/cmder/vendor/msysgit/bin/openssl.exe",
+		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-12-10-NDC-London-2013.md",
 		"/C/Development/GitHub/blog/Snow/stylesheets/styles.css",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-12-12-Hello-Sandra-Snow.md",
@@ -175,7 +163,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -207,36 +195,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2360,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -273,7 +233,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 317.0
+		"height": 311.0
 	},
 	"project": "blog.sublime-project",
 	"replace":
