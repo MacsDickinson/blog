@@ -65,6 +65,7 @@
 		$(function () {
 			$(".post:even").addClass('bg-1');
 			$(".post:odd").addClass('bg-2');
+			$(".postcontent a").attr('target', '_blank');
 		});
         function goToByScroll(id) {
             $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
