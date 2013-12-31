@@ -11,18 +11,18 @@ title: The end of 30 goals for 2013
 Completed
 ---------
 
-* **Enrol in a technical course** - I have started (but never got around to finishing) the [HTML5 Game Development][1] course with [Udacity][2]. It is actually  fantastic course and I highly recommended it for anyone who wants to improve their vanilla javascript scills.
+* **Enrol in a technical course** - I have started (but never got around to finishing) the [HTML5 Game Development][1] course with [Udacity][2]. It is actually  fantastic course and I highly recommended it for anyone who wants to improve their vanilla javascript skills.
 * **Eat something I've never eaten before** - This will have been completed on numerous occasions. I officially crossed it off the list after eating a treat a colleague brought back from India.
 * **1 month without alcohol** - January was totally dry and it was great. This is something I am going to try to do more often.
 * **Attend a technical user group** - I went along to [Leeds Sharp][3] in January and have been going since.
 * **3 months without XBox** - This felt more difficult than the dry month at the time but I've probably done another two months without it since.
 * **Brew my own beer** - Brewed a bitter for April and have the kit now to make a pilsner and a stout.
-![The brewing process][6]
+![The brewing process ][6]
 * **Write a portfolio website and blog** - This is it. I've actually removed the portfolio part whilst I polish of a number of my projects. It will be back soon.
-* **Write a Google Chrome plugin and get it submitted to the chrome web store** - I published SecurePass (now rebranded as [Uniquify.it][4]) however I have a number of breaking changes that I wany to make before re-releasing it to the general public.
+* **Write a Google Chrome plugin and get it submitted to the chrome web store** - I published SecurePass (now re-branded as [Uniquify.it][4]) however I have a number of breaking changes that I want to make before re-releasing it to the general public.
 * **Visit a foreign country** - You can't get more foreign than Disney Land
 ![Magic Kingdom][5]
-* **Pass a Microsoft exam** - I am official a Microsoft Certified Technical Specialist in Web Application Development im .NET 4 ([70-515][7]). I actually quite enjoyed the process of taking the exam so I will look to become an MCPD or MCSD in 2014.
+* **Pass a Microsoft exam** - I am official a Microsoft Certified Technical Specialist in Web Application Development in .NET 4 ([70-515][7]). I actually quite enjoyed the process of taking the exam so I will look to become an MCPD or MCSD in 2014.
 * **Climb to the top of a UK mountain** - Climbed to the top of Pen-Y-Fan, the highest mountain in the Brecon Beacons, on 13th July. 
 ![Pen-Y-Fan][9]
 * **Contribute to an open source project** - I have a few open source projects of my own that I regularly contribute to such as [ASafaHarbor][10] and [Uniquify.it][11] but it's my [contribution to Sandra.Snow][12] that counts for this one. I am planning on contributing significantly more to the community in 2014.
@@ -58,7 +58,7 @@ Maybe Next Year
 * **See an established band I've never seen before** - I'm really disappointed that I didn't get around to doing these. They will have to be pushed over to next year.
 * **Learn a new programming language** - I started learning Node but someone rightly pointed out that it is a framework, not a language. In fact I have spent a lot of time in 2013 playing with frameworks. Perhaps I need to move away from the .Net safety wheels.
 
-That's 15 done, 3 started and 12 missed out on. I'm really pleased with what I've achieved in 2013 but I do think I could have spent more time one the non-technical things in my life. Setting these goals has definitely been a success, so much so the idea [appears to be spreading][20], so I will be doing something [similar for 2014][21] although I will be cutting down the number of goals to something a little more manageable.
+That's 15 done, 3 started and 12 missed out on. I'm really pleased with what I've achieved in 2013 but I do think I could have spent more time one the non-technical things in my life. Setting these goals has definitely been a success, so much so the idea [appears to be spreading ][20], so I will be doing something [similar for 2014][21] although I will be cutting down the number of goals to something a little more manageable.
 
    [0]: /../Goals/30-goals-for-2013/
    [1]: https://www.udacity.com/course/cs255
