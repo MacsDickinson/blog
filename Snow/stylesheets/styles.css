@@ -82,7 +82,7 @@ a { color: inherit; text-decoration: none; transition: all 0.7s ease;}
 a:hover { text-decoration: none; color: #51b1c9; }
 a[href^="tel:"] {color: inherit;text-decoration:none;}
 
-p a {
+p a, li a {
 	color: #ffcc00;
 }
 
