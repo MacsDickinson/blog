@@ -5,7 +5,7 @@ title: The end of 30 goals for 2013
 published: draft
 ---
 
-2013 has been a very productive year. It&#39;s seen a new job, a house move, the birth of this blog, a couple of talks, the loss of a laptop and a couple of conferences. Not all of these were foreseen but a number of them were down to [the goals I set myself at the beginning of the year][0]. I haven&#39;t completed everything I set out to do but I do think that giving myself these clear objectives has pushed me to get more out of 2013 than I otherwise would have done. Being self motivated isn&#39;t only important for the self employed, it&#39;s also important to motivate yourself outside of work if you want to improve. Giving yourself a clear set of goals to complete in a set time is a guaranteed way to squeez more out of your year. Here&#39;s how I got on:
+2013 has been a very productive year. It&#39;s seen a new job, a house move, the birth of this blog, a couple of talks, the loss of a laptop and a couple of conferences. Not all of these were foreseen but a number of them were down to [the goals I set myself at the beginning of the year][0]. I haven&#39;t completed everything I set out to do but I do think that giving myself these clear objectives has pushed me to get more out of 2013 than I otherwise would have done. Being self motivated isn&#39;t only important for the self employed, it&#39;s also important to motivate yourself outside of work if you want to improve. Giving yourself a clear set of goals to complete in a set time is a guaranteed way to squeeze more out of your year. Here&#39;s how I got on:
 
 <!--excerpt-->
 
@@ -13,10 +13,10 @@ Completed
 ---------
 
 * **Enrol in a technical course** - I have started (but never got around to finishing) the [HTML5 Game Development][1] course with [Udacity][2]. It is actually  fantastic course and I highly recommended it for anyone who wants to improve their vanilla javascript scills.
-* **Eat something I've never eaten before** - This will have been completed on numerous occasions. I officially crossed it off the list after eating a treat broughta collegue brought back from India.
+* **Eat something I've never eaten before** - This will have been completed on numerous occasions. I officially crossed it off the list after eating a treat a colleague brought back from India.
 * **1 month without alcohol** - January was totally dry and it was great. This is something I am going to try to do more often.
 * **Attend a technical user group** - I went along to [Leeds Sharp][3] in January and have been going since.
-* **3 months withou XBox** - This felt more difficult than the dry month at the time but I've probably done another two months without it since.
+* **3 months without XBox** - This felt more difficult than the dry month at the time but I've probably done another two months without it since.
 * **Brew my own beer** - Brewed a bitter for April and have the kit now to make a pilsner and a stout.
 ![The brewing process][6]
 * **Write a portfolio website and blog** - This is it. I've actually removed the portfolio part whilst I polish of a number of my projects. It will be back soon.
@@ -26,18 +26,17 @@ Completed
 * **Pass a Microsoft exam** - I am official a Microsoft Certified Technical Specialist in Web Application Development im .NET 4 ([70-515][7]). I actually quite enjoyed the process of taking the exam so I will look to become an MCPD or MCSD in 2014.
 * **Climb to the top of a UK mountain** - Climbed to the top of Pen-Y-Fan, the highest mountain in the Brecon Beacons, on 13th July. 
 ![Pen-Y-Fan][9]
-Unfortunately, three of the SAS triallists that were also on the mountain that day [didn't make it][8].
 * **Contribute to an open source project** - I have a few open source projects of my own that I regularly contribute to such as [ASafaHarbor][10] and [Uniquify.it][11] but it's my [contribution to Sandra.Snow][12] that counts for this one. I am planning on contributing significantly more to the community in 2014.
 * **Raise money for charity** - November was Movember and I raised [the lofty sum of £35][13]. Our team did much better, pulling together [£400 between us][14].
 * **Give a talk at a technical meet up** - In November I gave a talk on [Event Store][15] at [Leeds Sharp][16].
 ![You can also see the mo in this picture][22]
-This was great fun and fantastic motervation to learn something new. Giving more talks will definitely be a focus for 2014.
-* **Find a diet that doesn't give me acid heartburn** - I haven't really found a diet that stops the acid reflux but I have found prescription drugs. Yay!
+This was great fun and fantastic motivation to learn something new. Giving more talks will definitely be a focus for 2014.
+* **Find a diet that doesn't give me acid heartburn** - I haven't really found a diet that works but I have found prescription drugs. Yay!
 
 Started
 -------
 
-* **Read a non technical book each quarter** - I'm not the fastest reader so this was always going to be a struggle. I have read **most of** The girl with the dragon tattoo and World War Z, both of which are good booksm but I've not hit the target of one each quarter.
+* **Read a non technical book each quarter** - I'm not the fastest reader so this was always going to be a struggle. I have read **most of** The girl with the dragon tattoo and World War Z, both of which are good books but I've not hit the target of one each quarter.
 * **Read a technical book each quarter** - As with the last one, this was going to be a struggle, especially when it turns out that I read the vast majority of content online - not in books. That said I have read **most of** a number of technical books:
     - [Pragmatic Programmer][17]
     - [CQRS The Example][18]
