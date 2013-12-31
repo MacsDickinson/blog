@@ -29,7 +29,9 @@ Completed
 Unfortunately, three of the SAS triallists that were also on the mountain that day [didn't make it][8].
 * **Contribute to an open source project** - I have a few open source projects of my own that I regularly contribute to such as [ASafaHarbor][10] and [Uniquify.it][11] but it's my [contribution to Sandra.Snow][12] that counts for this one. I am planning on contributing significantly more to the community in 2014.
 * **Raise money for charity** - November was Movember and I raised [the lofty sum of £35][13]. Our team did much better, pulling together [£400 between us][14].
-* **Give a talk at a technical meet up** - In November I gave a talk on [Event Store][15] at [Leeds Sharp][16]. This was great fun and fantastic motervation to learn something new. Giving more talks will definitely be a focus for 2014.
+* **Give a talk at a technical meet up** - In November I gave a talk on [Event Store][15] at [Leeds Sharp][16].
+![You can also see the mo in this picture][22]
+This was great fun and fantastic motervation to learn something new. Giving more talks will definitely be a focus for 2014.
 * **Find a diet that doesn't give me acid heartburn** - I haven't really found a diet that stops the acid reflux but I have found prescription drugs. Yay!
 
 Started
@@ -82,3 +84,4 @@ That's 15 done, 3 started and 12 missed out on. I'm really pleased with what I'v
    [19]: http://www.packtpub.com/nancy-web-development/book
    [20]: http://mat-mcloughlin.net/2013/12/01/twelve-achivements-to-unlock.html
    [21]: /../category/goals/
+   [22]: /../images/goals_talkEventStore.jpg

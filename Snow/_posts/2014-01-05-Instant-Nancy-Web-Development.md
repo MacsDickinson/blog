@@ -1,11 +1,11 @@
 ---
 layout: post
 category: Nancy
-title: Instant Nancy Web Development with Christian Horsdal
+title: Instant Nancy Web Development
 published: draft
 ---
 
-I've been lucky enough to get my mits on a copy of [Christian Horsdal][0]'s new book [Instant Nancy Web Development][1]. 
+I've been lucky enough to get my mits on a copy of [Christian Horsdal][0]'s new book [Instant Nancy Web Development][1].
 
 <!--excerpt-->
 
