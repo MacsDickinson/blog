@@ -1,13 +1,15 @@
 ---
 layout: post
-category: Rants
-title: Why leaving university was one of the best things I've done
+category: Uncategorised
+title: Why I don't regret leaving university
 published: draft
 ---
 
-I didn't do to well at university. For some reason I decided to take a music course. Wasn't technical - was mostly theory which wasn't my strong point.
+![I Regret Nothing ][0]
 
-I grew up in rural Wales - Brecon - where computer science isn't at the forefront of peoples minds. The high school only offered the tradition subjects (I opted for Maths, Chemistry and Music). For the more adventurous you could go to the local collage and get a BTec in masonry...
+I didn't do too well at university. For some reason I decided to take a music course that was mostly theory which wasn't my strong point.
+
+I grew up in rural Wales - Brecon - where computer science isn't at the forefront of peoples minds. The high school only offered the traditional subjects (I opted for Maths, Chemistry and Music) and for the more adventurous you could go to the local collage and get a BTec in masonry...
 
 <!--excerpt-->
 
@@ -22,3 +24,5 @@ The next thing I know I've been promoted and I'm writing C# code for a living! F
 That was four years ago and is not the point of this post. Since then I have always felt somewhat lacking compared to my honoured peers and have gone out of my way learn new techniques, frameworks and standards. It is this underlying insecurity that one day my employers will turn around and say "wait a minute - you don't have a degree" that pushes me to consistently push myself to my limit.
 
 I'm interested to see what other people in the industry think to this, especially those who have the degrees and can see it from the other side. Do you think there is a clear difference between the educated and the self taught developer? What are the pro's and con's?
+
+   [0]: /../images/misfits_regretnothing.gif
