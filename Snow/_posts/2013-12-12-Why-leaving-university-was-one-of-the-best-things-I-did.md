@@ -7,11 +7,11 @@ published: draft
 
 I didn't do to well at university. For some reason I decided to take a music course. Wasn't technical - was mostly theory which wasn't my strong point.
 
-I grew up in rural Wales - Brecon - where computer science isn't on the forefront of peoples minds. The high school only offered the tradition subjects (I opted for Maths, Chemistry and Music). For the more adventurous you could go to the local collage and get a BTec in masonry...
+I grew up in rural Wales - Brecon - where computer science isn't at the forefront of peoples minds. The high school only offered the tradition subjects (I opted for Maths, Chemistry and Music). For the more adventurous you could go to the local collage and get a BTec in masonry...
 
 <!--excerpt-->
 
-It wasn't until I left Brecon that I really started to get to know the true magnitude of the options that were available to me and after a painful year of Music I decided to call it a day. In hindsight this is when I should have signed up for a CS degree but what 19 year old me hadn't discovered programming yet. instead I did what any self respecting drop out would have done. I got a job in a call centre. Now one thing led to another and fast forward a year or so and I was doing localistion processing for a translation company. This is a dull as it sounds but it taught me a lot of valuble lessons.
+It wasn't until I left Brecon that I really started to get to know the true magnitude of the options that were available to me and after a painful year of Music I decided to call it a day. In hindsight this is when I should have signed up for a CS degree but what 19 year old me hadn't discovered programming yet. instead I did what any self respecting drop out would have done. I got a job in a call centre. Now one thing led to another and fast forward a year or so and I was doing localisation processing for a translation company. This is a dull as it sounds but it taught me a lot of valuable lessons.
 
 1. RegEx - whether this is a blessing or a hindrance I am yet to find out but for over a year I RegExed the crap out of those files.
 2. C# - RegEx is great but there is only so far you can go. My boss at the time introduced me to LinqPad so I got myself a C# book and never looked back.
