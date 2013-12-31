@@ -2,7 +2,6 @@
 layout: post
 category: Goals
 title: The end of 30 goals for 2013
-published: draft
 ---
 
 2013 has been a very productive year. It&#39;s seen a new job, a house move, the birth of this blog, a couple of talks, the loss of a laptop and a couple of conferences. Not all of these were foreseen but a number of them were down to [the goals I set myself at the beginning of the year][0]. I haven&#39;t completed everything I set out to do but I do think that giving myself these clear objectives has pushed me to get more out of 2013 than I otherwise would have done. Being self motivated isn&#39;t only important for the self employed, it&#39;s also important to motivate yourself outside of work if you want to improve. Giving yourself a clear set of goals to complete in a set time is a guaranteed way to squeeze more out of your year. Here&#39;s how I got on:
