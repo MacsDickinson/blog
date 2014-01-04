@@ -5,7 +5,12 @@
 
 pre code {
     display: block; padding: 0.5em;
-    background: #282B2E;
+    background: #292f39;
+}
+
+code {
+    background: #292f39;
+    color: #E0E2E4;
 }
 
 pre .keyword,

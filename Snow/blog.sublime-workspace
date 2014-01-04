@@ -44,10 +44,21 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2013-12-31-The-end-of-30-goals-for-2013.md",
+			"file": "_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
 			"settings":
 			{
-				"buffer_size": 1532,
+				"buffer_size": 2426,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "---\nlayout: post\ncategory: Nancy\ntitle: Instant Nancy Web Development\npublished: draft\n---\n\n\n\nI've been lucky enough to get my mits on a copy of [Christian Horsdal][0]'s new book [Instant Nancy Web Development][1].\n\n<!--excerpt-->\n\n   [0]: http://twitter.com/chr_horsdal\n   [1]: http://bit.ly/1bIK5hp",
+			"file": "_posts/2014-01-05-Instant-Nancy-Web-Development.md",
+			"file_size": 310,
+			"file_write_time": 130329812992882752,
+			"settings":
+			{
+				"buffer_size": 300,
 				"line_ending": "Windows"
 			}
 		}
@@ -55,9 +66,25 @@
 	"build_system": "Packages/User/Snow.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"spell c",
+				"Google Spell Check"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
 			[
 				"git c",
 				"Git: Commit"
@@ -69,10 +96,6 @@
 			[
 				"git",
 				"Git: Pull Current Branch"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"insta",
@@ -119,7 +142,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 576.0
 	},
 	"console":
 	{
@@ -140,6 +163,15 @@
 	},
 	"file_history":
 	[
+		"/C/Code/Github/blog/Snow/_posts/2013-12-31-The-end-of-30-goals-for-2013.md",
+		"/C/Code/Github/blog/Snow/_posts/2014-01-01-14-Goals-for-2014.md",
+		"/C/Code/Github/blog/Snow/stylesheets/styles.css",
+		"/C/Code/Github/blog/Snow/_layouts/post.cshtml",
+		"/C/Code/Github/blog/Snow/_layouts/default.cshtml",
+		"/C/Users/Macs/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Code/Github/blog/Snow/_posts/2014-01-05-Instant-Nancy-Web-Development.md",
+		"/_posts/2014-01-01-14-Goals-for-2014.md",
+		"/C/Code/Github/blog/Snow/_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
 		"/C/Code/Github/blog/Snow/web.config",
 		"/C/Code/Github/blog/Snow/fonts/glyphicons-halflings-regular.svg",
 		"/C/Code/Github/blog/Snow/.gitignore",
@@ -147,13 +179,10 @@
 		"/C/Code/Github/blog/Snow/_posts/2013-10-30-Hack-Manchester-2013.md",
 		"/C/Code/Github/blog/Snow/_posts/2013-08-10-chocolatey-making-pc-setup-a-breeze.md",
 		"/C/Code/Github/blog/Snow/_posts/2014-01-01-Time-for-some-new-goals.md",
-		"/C/Code/Github/blog/Snow/_posts/2014-01-05-Instant-Nancy-Web-Development.md",
-		"/C/Code/Github/blog/Snow/_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
 		"/C/Code/Github/blog/Snow/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
 		"/C/Code/Github/blog/Snow/categories.cshtml",
 		"/C/Code/Github/blog/Snow/snow.config",
 		"/C/Code/Github/blog/Snow/blog.sublime-project",
-		"/C/Code/Github/blog/Snow/_layouts/default.cshtml",
 		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
 		"/C/Development/GitHub/blog/Snow/_layouts/default.cshtml",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-12-10-NDC-London-2013.md",
@@ -222,35 +251,60 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2013-12-31-The-end-of-30-goals-for-2013.md",
+					"file": "_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1532,
+						"buffer_size": 2426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								854,
-								854
+								271,
+								271
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"parser": "github",
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
-							"target": "disk"
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2014-01-05-Instant-Nancy-Web-Development.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -339,7 +393,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 376.0,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
