@@ -17,6 +17,11 @@ html, body {
 	min-width:300px;
 }
 
+.addthis_custom {
+	width: 184px;
+	margin: 0 auto;
+}
+
 ::selection {
 	background: #51b1c9;
 	}

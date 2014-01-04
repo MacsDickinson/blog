@@ -3,13 +3,43 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>Macs Dickinson</title>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
-	<meta property="og:image" content="/../images/gravitar.jpeg"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="description" content="Macs Dickinson. Welsh .Net developer on software and the open web">
-	<meta name="auther" content"Macs Dickinson">
+	@if (IsSectionDefined("meta")) { 
+    	@RenderSection("meta")
+	}
+	else {
+		<!-- Place this data between the <head> tags of your website -->
+		<title>Macs Dickinson</title>
+	    <meta name="description" content="Macs Dickinson. Welsh .Net developer on software and the open web" />
+		<!-- Google Authorship and Publisher Markup -->
+	 	<link rel="author" href="https://plus.google.com/u/0/+MacsDickinson/posts"/>
+		<link rel="publisher" href="https://plus.google.com/u/0/+MacsDickinson"/>
+
+		<!-- Schema.org markup for Google+ -->
+	 	<meta itemprop="name" content="Macs Dickinson">
+		<meta itemprop="description" content="Macs Dickinson. Welsh .Net developer on software and the open web">
+		<meta itemprop="image" content="http://www.gravatar.com/avatar/a1c8863544a1277fb119f2ffdb5e0d4e.png">
+
+		<!-- Twitter Card data -->
+	 	<meta name="twitter:card" content="http://www.gravatar.com/avatar/a1c8863544a1277fb119f2ffdb5e0d4e.png">
+		<meta name="twitter:site" content="&#64;MacsDickinson">
+		<meta name="twitter:title" content="Macs Dickinson">
+		<meta name="twitter:description" content="Macs Dickinson. Welsh .Net developer on software and the open web">
+		<meta name="twitter:creator" content="&#64;MacsDickinson">
+		<!-- Twitter summary card with large image must be at least 280x150px -->
+	 	<meta name="twitter:image:src" content="https://pbs.twimg.com/profile_banners/183268831/1354181451/web">
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Macs Dickinson" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="http://www.gravatar.com/avatar/a1c8863544a1277fb119f2ffdb5e0d4e.png" />
+		<meta property="og:description" content="Macs Dickinson. Welsh .Net developer on software and the open web" />
+		<meta property="og:site_name" content="Macs Dickinson" />
+	@* 	<meta property="article:section" content="Article Section" />
+		<meta property="article:tag" content="Article Tag" /> *@
+		@* <meta property="fb:admins" content="Facebook numberic ID" /> *@
+	}
 	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 	<link href="/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
