@@ -2,7 +2,6 @@
 layout: post
 category: Nancy, Book Reviews
 title: Learn Nancy in 62 pages
-published: draft
 ---
 
 We all like a little bit of light reading over the Christmas break between the massive meals, mulled wine, and cheese and crackers. This Christmas was the turn [Christian Horsdal][0]'s new book [Instant Nancy Web Development][1].
