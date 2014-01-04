@@ -3,6 +3,44 @@
 @{
   Layout = "default.cshtml";
 }
+@section meta {
+	<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+	<html itemscope itemtype="http://schema.org/Article">
+
+	<!-- Place this data between the <head> tags of your website -->
+	<title>Macs Dickinson - @Model.Title</title>
+    <meta name="description" content="@Model.MetaDescription" />
+	<!-- Google Authorship and Publisher Markup -->
+ 	<link rel="author" href="https://plus.google.com/u/0/+MacsDickinson/posts"/>
+	<link rel="publisher" href="https://plus.google.com/u/0/+MacsDickinson"/>
+
+	<!-- Schema.org markup for Google+ -->
+ 	<meta itemprop="name" content="@Model.Title">
+	<meta itemprop="description" content="@Model.MetaDescription">
+	@*  *@
+	<meta itemprop="image" content="http://www.gravatar.com/avatar/a1c8863544a1277fb119f2ffdb5e0d4e.png">
+
+	<!-- Twitter Card data -->
+ 	<meta name="twitter:card" content="http://www.gravatar.com/avatar/a1c8863544a1277fb119f2ffdb5e0d4e.png">
+	<meta name="twitter:site" content="&#64;MacsDickinson">
+	<meta name="twitter:title" content="@Model.Title">
+	<meta name="twitter:description" content="@Model.MetaDescription">
+	<meta name="twitter:creator" content="&#64;MacsDickinson">
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+ 	<meta name="twitter:image:src" content="https://pbs.twimg.com/profile_banners/183268831/1354181451/web">
+	<!-- Open Graph data -->
+	<meta property="og:title" content="@Model.Title" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="@Model.Url" />
+	<meta property="og:image" content="http://www.gravatar.com/avatar/a1c8863544a1277fb119f2ffdb5e0d4e.png" />
+	<meta property="og:description" content="@Model.MetaDescription" />
+	<meta property="og:site_name" content="Macs Dickinson" />
+	<meta property="article:published_time" content="@Model.PostDate" />
+	<meta property="article:modified_time" content="@Model.PostDate" />
+@* 	<meta property="article:section" content="Article Section" />
+	<meta property="article:tag" content="Article Tag" /> *@
+	@* <meta property="fb:admins" content="Facebook numberic ID" /> *@
+}
 @section menu {	
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav sf-menu">
