@@ -12,7 +12,6 @@ Setting up your script
 
 Downloading and installing AutoHotKey is as straightforward as it should be. Once you've got it running you're going to want to create your script. If like me you want the script to run on startup so go ahead and create it in your startup folder. Call it something like startup.ahk. My file looks a little something like this:
 
-      ; hotkeys and hotstrings
       ^!Space::Media_Play_Pause	; Ctrl+Alt+Space => Play/Pause music
       ^!Left::Media_Prev				; Ctrl+Alt+← => Previous track
       ^!Right::Media_Next				; Ctrl+Alt+→ => Next Track
