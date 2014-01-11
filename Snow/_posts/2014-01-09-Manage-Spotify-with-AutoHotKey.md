@@ -9,13 +9,13 @@ I've got a fancy keyboard at home that's so futuristic it has play and pause but
 Setting up your script
 ----------------------
 
-Downloading and installing AutoHotKey is as straightforward as it should be. Once you've got it running you're going to want to create your script. If like me you want the script to run on startup so go ahead and create it in your startup folder. Call it something like startup.ahk. My file looks a little something like this:
+Downloading and installing AutoHotKey is as straightforward as it should be. Once you've got it running you're going to want to create your script. If like me you want the script to run on startup go ahead and create it in your startup folder. Call it something like startup.ahk. My file looks a little something like this:
 
-      ^!Space::Media_Play_Pause	; Ctrl+Alt+Space => Play/Pause music
-      ^!Left::Media_Prev				; Ctrl+Alt+← => Previous track
-      ^!Right::Media_Next				; Ctrl+Alt+→ => Next Track
-      ^!Up::Volume_Up					; Ctrl+Alt+↑ => Volume up
-      ^!Down::Volume_Down			; Ctrl+Alt+↓ => Volume down
+      ^!Space::Media_Play_Pause     ; Ctrl+Alt+Space => Play/Pause music
+      ^!Left::Media_Prev            ; Ctrl+Alt+← => Previous track
+      ^!Right::Media_Next			; Ctrl+Alt+→ => Next Track
+      ^!Up::Volume_Up				; Ctrl+Alt+↑ => Volume up
+      ^!Down::Volume_Down           ; Ctrl+Alt+↓ => Volume down
 
 You can do a lot more with AutoHotKey, check out their [quick start guide][3], [hotkey list][4], [key list][5] and [command list][6] to get an idea of what you can do.
 
