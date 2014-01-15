@@ -19,6 +19,22 @@ Downloading and installing AutoHotKey is as straightforward as it should be. Onc
 
 You can do a lot more with AutoHotKey, check out their [quick start guide][3], [hotkey list][4], [key list][5] and [command list][6] to get an idea of what you can do.
 
+Update
+------
+
+As suggested by [Matt][8] in the comments - I've taken a look at [SharpKeys] to map my CapLocks (who uses it?!) to a function key - F15. Using AutoHotKey I can then map my mapped F15 plus other keys to send the commands:
+
+      F15 & Space::Send {Media_Play_Pause}   ; Ctrl+Alt+Space => Play/Pause music
+      F15 & Left::Send {Media_Prev}          ; Ctrl+Alt+← => Previous track
+      F15 & Right::Send {Media_Next}         ; Ctrl+Alt+→ => Next Track
+      F15 & Up::Send {Volume_Up}             ; Ctrl+Alt+↑ => Volume up
+      F15 & Down::Send {Volume_Down}         ; Ctrl+Alt+↓ => Volume down
+
+And for when someone does something that you disapprove of there is this:
+
+      F15 & Insert:: Send ಠ_ಠ                ; Ctrl+Alt+End => Prints ಠ_ಠ
+
+
    [0]: https://www.spotify.com
    [1]: https://twitter.com/mattscode
    [2]: http://www.autohotkey.com/
@@ -26,3 +42,5 @@ You can do a lot more with AutoHotKey, check out their [quick start guide][3], [
    [4]: http://www.autohotkey.com/docs/Hotkeys.htm
    [5]: http://www.autohotkey.com/docs/KeyList.htm
    [6]: http://www.autohotkey.com/docs/commands.htm
+   [7]: http://www.randyrants.com/2011/12/sharpkeys_35.html
+   [8]: #post-1193893741
