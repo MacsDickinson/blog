@@ -22,7 +22,7 @@ You can do a lot more with AutoHotKey, check out their [quick start guide][3], [
 Update
 ------
 
-As suggested by [Matt][8] in the comments - I've taken a look at [SharpKeys] to map my CapLocks (who uses it?!) to a function key - F15. Using AutoHotKey I can then map my mapped F15 plus other keys to send the commands:
+As suggested by [Matt][1] in the comments - I've taken a look at [SharpKeys] to map my CapLocks (who uses it?!) to a function key - F15. Using AutoHotKey I can then map my mapped F15 plus other keys to send the commands:
 
       F15 & Space::Send {Media_Play_Pause}   ; Ctrl+Alt+Space => Play/Pause music
       F15 & Left::Send {Media_Prev}          ; Ctrl+Alt+← => Previous track
@@ -43,4 +43,3 @@ And for when someone does something that you disapprove of there is this:
    [5]: http://www.autohotkey.com/docs/KeyList.htm
    [6]: http://www.autohotkey.com/docs/commands.htm
    [7]: http://www.randyrants.com/2011/12/sharpkeys_35.html
-   [8]: #post-1193893741
