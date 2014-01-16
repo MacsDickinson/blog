@@ -24,15 +24,15 @@ Update
 
 As suggested by [Matt][1] in the comments - I've taken a look at [SharpKeys] to map my CapLocks (who uses it?!) to a function key - F15. Using AutoHotKey I can then map my mapped F15 plus other keys to send the commands:
 
-      F15 & Space::Send {Media_Play_Pause}   ; Ctrl+Alt+Space => Play/Pause music
-      F15 & Left::Send {Media_Prev}          ; Ctrl+Alt+← => Previous track
-      F15 & Right::Send {Media_Next}         ; Ctrl+Alt+→ => Next Track
-      F15 & Up::Send {Volume_Up}             ; Ctrl+Alt+↑ => Volume up
-      F15 & Down::Send {Volume_Down}         ; Ctrl+Alt+↓ => Volume down
+      F15 & Space::Send {Media_Play_Pause}   ; Caps+Space => Play/Pause music
+      F15 & Left::Send {Media_Prev}          ; Caps+← => Previous track
+      F15 & Right::Send {Media_Next}         ; Caps+→ => Next Track
+      F15 & Up::Send {Volume_Up}             ; Caps+↑ => Volume up
+      F15 & Down::Send {Volume_Down}         ; Caps+↓ => Volume down
 
 And for when someone does something that you disapprove of there is this:
 
-      F15 & Insert:: Send ಠ_ಠ                ; Ctrl+Alt+End => Prints ಠ_ಠ
+      F15 & Insert:: Send ಠ_ಠ                ; Caps+Insert => Prints ಠ_ಠ
 
 
    [0]: https://www.spotify.com
