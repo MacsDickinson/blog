@@ -22,7 +22,7 @@ You can do a lot more with AutoHotKey, check out their [quick start guide][3], [
 Update
 ------
 
-As suggested by [Matt][1] in the comments - I've taken a look at [SharpKeys] to map my CapLocks (who uses it?!) to a function key - F15. Using AutoHotKey I can then map my mapped F15 plus other keys to send the commands:
+As suggested by [Matt][1] in the comments - I've taken a look at [SharpKeys][7] to map my CapLocks (who uses it?!) to a function key - F15. Using AutoHotKey I can then map my mapped F15 plus other keys to send the commands:
 
       F15 & Space::Send {Media_Play_Pause}   ; Caps+Space => Play/Pause music
       F15 & Left::Send {Media_Prev}          ; Caps+← => Previous track
