@@ -51,6 +51,18 @@
 		</ul>
 	</div>
 }
+@section scripts {
+	<script type="text/javascript">
+		$(function () {
+			$(".snow-series li").each(function() {
+				if($('a', this).length) {
+					$(this).addClass('link');
+					$('a', this).prepend('<i class="fa fa-chevron-circle-right"></i> ')
+				}
+			});
+		});
+    </script>
+}
 <div class="post postcontent">
 	<div class="row">
   		<div class="col-sm-8 col-sm-offset-2">

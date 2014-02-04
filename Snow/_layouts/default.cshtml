@@ -55,7 +55,6 @@
 		hljs.initHighlightingOnLoad();
 	</script>
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52c82b2952baabb4"></script>
-		
 </head>
 <body>
 	<header id="top">
@@ -109,7 +108,7 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.0.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 	<script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
-	<script>
+	<script type="text/javascript">
 		$(function () {
 			$(".post:even").addClass('bg-1');
 			$(".post:odd").addClass('bg-2');
@@ -132,5 +131,6 @@
 	  })();
 
 	</script>
+	@RenderSection("scripts", false)
   </body>
 </html>

@@ -241,6 +241,31 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 	text-align: center;
 }
 
+/**************Series**************/
+
+.snow-series {
+	list-style-type: none;
+	padding-left: 25px;
+}
+	.snow-series li {
+		padding: 5px 10px;
+		font-size: 12px;
+		line-height: 1.5;
+		border-radius: 3px;
+		color: #333;
+		background-color: #fff;
+		display: inline-block;
+		margin-right: 5px;
+		border: 1px solid #ccc;;
+		font-weight: 600;
+		font-size: 12px;
+	}
+		.snow-series li.link:hover {
+			color: #323a45;
+			background-color: #ebebeb;
+			border-color: #adadad;
+		}
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
 @media only screen and (max-width: 768px) {
