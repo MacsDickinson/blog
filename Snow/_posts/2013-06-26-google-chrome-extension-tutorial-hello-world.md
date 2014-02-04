@@ -14,6 +14,8 @@ This is the first post in a series of tutorials on building Google Chrome extens
 
 In this first post I will explain a couple of the the basic concepts that you need to know in order to build a simple Hello World extension. I will also tell you what you need to do to get a local copy of your extension working in your browser. This will give us a solid foundation that we will expand upon as we go through the series.
 
+Code from this tutorial is [available on GitHub][10].
+
 <!--excerpt-->
 
 The concepts we will be covering today are:
@@ -82,3 +84,4 @@ Now I'll admit that this isn't doing anything impressive; it's not even doing an
    [7]: chrome://extensions/ (extensions)
    [8]: /../images/unpackaged-extension.png
    [9]: http://www.macsentom.co.uk "Macs Dickinson"
+   [10]: https://github.com/MacsDickinson/ChromeExtensions101/tree/master/Part%201%20-%20Hello%20World
