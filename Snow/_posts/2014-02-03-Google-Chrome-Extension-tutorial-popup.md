@@ -92,7 +92,7 @@ Up until now we've not done anything with any substance - lets change that by lo
 		</body>
 	</html>
 
-There's no magic here, just a couple of inputs and a div to hold some results. You'll notice that we've referenced a script file - this is because __your JavaScript and HTML needs to be kept in separate files__ due to [Googles content security policy][5]. Go ahead and create popup.js in  scripts folder and give it the following content:
+There's no magic here, just a couple of inputs and a div to hold some results. You'll notice that we've referenced a script file - this is because __your JavaScript and HTML needs to be kept in separate files__ due to [Googles content security policy][5]. Go ahead and create `popup.js` in  scripts folder and give it the following content:
 
 	var imageGenerator = {
 		requestImages: function() {
@@ -154,6 +154,8 @@ Stay tuned for the next instalment in this [Chrome Extensions 101][0] series whe
 
 Code from this tutorial is [available on GitHub][7].
 
+You can also install the finished sample extension from the [Chrome Web Store][9].
+
    [0]: /../category/chrome-extension/ "Chrome extension tutorial series"
    [1]: /../javascript/google-chrome-extension-tutorial-hello-world "GOOGLE CHROME EXTENSION TUTORIALS: HELLO WORLD"
    [2]: /../images/2014-02-03_15_27_28-Lesson2-icons.png "Chrome Extension Manager"
@@ -163,3 +165,4 @@ Code from this tutorial is [available on GitHub][7].
    [6]: /../images/2014-02-03_15_27_28-Lesson2-InstaKitten.png "InstaKitten"
    [7]: https://github.com/MacsDickinson/ChromeExtensions101/tree/master/Part%202%20-%20Popup.html/
    [8]: https://github.com/MacsDickinson/ChromeExtensions101/tree/master/Part%202%20-%20Popup.html/icons
+   [9]: https://chrome.google.com/webstore/detail/instakitten/ldjiocmhpjhpcelgfbdeoenoojgejboc?utm_source=macsdickinson.com
