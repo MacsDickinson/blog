@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
 				"border-c",
 				"border-color"
 			],
@@ -43,13 +51,57 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Snow/_posts/2014-02-19-The-Pursuir-of-Happyness.md",
+			"settings":
+			{
+				"buffer_size": 1940,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Snow/_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
+			"settings":
+			{
+				"buffer_size": 3257,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/User/Snow.sublime-build",
 	"command_palette":
 	{
-		"height": 380.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
 			[
 				"mark",
 				"Markdown Preview: Python Markdown: Preview in Browser"
@@ -57,10 +109,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"markdown",
-				"Markdown Preview: Python Markdown: Preview in Browser"
 			],
 			[
 				"pack",
@@ -91,7 +139,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 576.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -112,36 +160,58 @@
 	},
 	"file_history":
 	[
+		"/C/Development/GitHub/uniquify.it/Chrome Extension/scripts/jquery-1.10.2.min.js",
+		"/C/Development/GitHub/uniquify.it/Chrome Extension/scripts/contentscript.js",
+		"/C/Development/GitHub/uniquify.it/Chrome Extension/manifest.json",
+		"/C/Development/GitHub/uniquify.it/Chrome Extension/styles/contentscript.css",
+		"/C/Development/GitHub/uniquify.it/Chrome Extension/scripts/jquery-1.10.2.js",
+		"/C/Development/GitHub/uniquify.it/Chrome Extension/scripts/uniquify.js",
+		"/C/Development/GitHub/uniquify.it/Chrome Extension/scripts/background.js",
+		"/C/Users/macs.dickinson/Documents/Chrome tutorial tests/Lesson 2/manifest.json",
+		"/C/Development/GitHub/blog/Snow/_posts/2014-02-03-Google-Chrome-Extension-tutorial-popup.md",
+		"/C/Development/GitHub/blog/Snow/_posts/2013-06-26-google-chrome-extension-tutorial-hello-world.md",
+		"/C/Development/GitHub/blog/Snow/stylesheets/styles.css",
+		"/C/Users/macs.dickinson/AppData/Roaming/Sublime Text 3/Packages/User/Snow.sublime-build",
+		"/C/Development/GitHub/blog/Snow/_layouts/default.cshtml",
+		"/C/Development/GitHub/blog/Snow/_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
+		"/C/Development/GitHub/blog/Snow/index.cshtml",
+		"/C/Development/GitHub/blog/Snow/snow.config",
+		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
+		"/C/Development/GitHub/blog/Snow/_posts/2014-01-09-Manage-Spotify-with-AutoHotKey.md",
+		"/C/Development/GitHub/blog/Snow/rss.xml",
+		"/_posts/2014-01-09-Manage-Spotify-with-AutoHotKey.md",
+		"/C/Development/GitHub/blog/Snow/_posts/2013-05-31-unique-password-generator-securepass.md",
+		"/C/Development/GitHub/blog/Snow/_posts/2014-01-09-Manage-Spotify-with-AutoHotKey.mdown",
+		"/C/Development/GitHub/blog/Snow//_posts/2014-01-09-Manage-Spotify-with-AutoHotKey.mdown",
+		"/C/Development/GitHub/blog/Snow/web.config",
+		"/C/Users/macs.dickinson/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/macs.dickinson/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/macs.dickinson/Downloads/cmder_full/cmder/vendor/msysgit/bin/openssl.exe",
+		"/C/Development/GitHub/blog/Snow/_posts/2013-12-10-NDC-London-2013.md",
+		"/C/Development/GitHub/blog/Snow/_posts/2013-12-12-Hello-Sandra-Snow.md",
 		"/C/Development/GitHub/blog/blog.sublime-project",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-11-25-Hello-Sandra-Snow.md",
-		"/C/Users/macs.dickinson/AppData/Roaming/Sublime Text 3/Packages/User/Snow.sublime-build",
 		"/C/Development/GitHub/blog/.deployment",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-10-30-Hack-Manchester-2013.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-11-16-EventStore-with-examples-in-nancy.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-07-17-browser-specific-jquery-script-bundling.md",
-		"/C/Development/GitHub/blog/Snow/_layouts/default.cshtml",
-		"/C/Development/GitHub/blog/Snow/_posts/2013-06-26-google-chrome-extension-tutorial-hello-world.md",
-		"/C/Development/GitHub/blog/Snow/_layouts/post.cshtml",
 		"/C/Development/GitHub/blog/Snow/CNAME",
-		"/C/Development/GitHub/blog/Snow/stylesheets/styles.css",
 		"/C/Development/GitHub/blog/Snow/archive.cshtml",
 		"/C/Development/GitHub/blog/Snow/categories.cshtml",
 		"/C/Development/GitHub/blog/Snow/category.cshtml",
 		"/C/Development/GitHub/blog/Snow/drafts.cshtml",
-		"/C/Development/GitHub/blog/Snow/index.cshtml",
 		"/C/Development/GitHub/blog/Snow/projects.cshtml",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-08-10-chocolatey-making-pc-setup-a-breeze.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-08-12-google-chrome-password-hack-holy-grail.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-03-30-30-goals-for-2013.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-04-02-introducing-jquery-autocomplete.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-04-06-ravendb-and-appharbor.md",
-		"/C/Development/GitHub/blog/Snow/_posts/2013-05-31-unique-password-generator-securepass.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-06-20-localising-javascript-asp-net.md",
 		"/C/Development/GitHub/blog/Snow/_posts/2013-09-12-ceaser-box-cipher-csharp.md"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -155,6 +225,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"securepass",
+			"script",
+			"author",
+			"rel=\"author\"",
+			"rel=author",
+			"selection",
 			" ",
 			"Â",
 			"pad-bot"
@@ -165,6 +241,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"uniquify",
 			" "
 		],
 		"reverse": false,
@@ -173,11 +250,75 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Development\\GitHub\\blog"
+		}
+	],
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Snow/_posts/2014-02-19-The-Pursuir-of-Happyness.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1812,
+								1812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Snow/_posts/2013-12-12-Why-leaving-university-was-one-of-the-best-things-I-did.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2940,
+								2940
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 286.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -220,10 +361,10 @@
 	{
 		"height": 0.0
 	},
-	"project": "blog.sublime-project",
+	"project": "",
 	"replace":
 	{
-		"height": 62.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
