@@ -11,7 +11,7 @@ html, body {
 	background: #292f39;
 	font: 15px/26px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	text-align: justify;
 	color: #ffffff;
 	min-width:300px;
@@ -83,7 +83,7 @@ pre code {
 
 * { -webkit-text-size-adjust: none;}
 
-a { color: inherit; text-decoration: none; transition: all 0.7s ease;}
+a { color: inherit; text-decoration: none; transition: all 0.7s ease; }
 a:hover { text-decoration: none; color: #51b1c9; }
 a[href^="tel:"] {color: inherit;text-decoration:none;}
 
@@ -91,7 +91,8 @@ p a, li a {
 	color: #ffcc00;
 }
 
-.bg-1 a:hover { color: #323a45;}
+.bg-1 p a, .bg-1 li a { color: #323a45;}
+.bg-1 a:hover, .bg-1 a:hover { color: #ffcc00;}
 
 header h1 span a { 
 	color: #454D57;
@@ -112,7 +113,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 { 
     text-transform: uppercase; 
     font-size: 3em;
-    font-weight: 600;
     text-align: center; 
     padding: 30px 0 20px;
 }
