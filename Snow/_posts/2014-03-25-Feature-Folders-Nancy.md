@@ -3,7 +3,6 @@ layout: post
 category: nancy, architecture
 title: Feature folders in Nancy
 metadescription: Learn how to utilise use feature folders in the Nancy web framework
-published: draft
 ---
 
 Working on large applications can get a little messy and related components can end up strewn accross a project. When working with MVC or Nancy I often find myself in situations where I'm sifting through the crontrollers, models and views folders to find related files. This is frustrating at best - especially when the height of one of these folders can span the hight of your monitor. One solution may be to get a bigger monitor - but there's a limit.
