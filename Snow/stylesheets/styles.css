@@ -268,14 +268,14 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	header h1 { 
 		font-size: 3em;
 	}
 }
 
 
-@media only screen and (max-width: 995px) {
+@media screen and (max-width: 995px) {
 	.box-1 { width: 210px; height: 210px;}
 	.block-5 > div { width: 162px;}
 	.post-info .img-circle { height: 50%; width: 50%; max-height: 180px;}
@@ -283,7 +283,7 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 	.bg-1:after { bottom: -24px;}
 	.content:after { bottom: -24px;}
 }
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.box-2 + .box-2:after {display: none; }
 	.box-1 {margin-top: -1px; width: 207px;height: 207px;  margin-right: 0;}
 	.block-1 { margin-top: 80px;}
@@ -292,7 +292,7 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 	.img-circle.img-ind { width: 50%; height: 50%;}
 	.post-info .img-circle { max-height: 210px;}
 }
-@media only screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
 	.title-1 { font-size: 40px;}
 	.box-1 { float: none; margin-left: auto; margin-right: auto;}
 	.block-3 .img-ind + div { overflow: hidden;}
@@ -301,7 +301,7 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 	.block-5 > div, .block-5 > div:first-child { width: 149px; text-align: left;} 
 	.date { margin-right: 10px;}
 }
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
 
 }
 
