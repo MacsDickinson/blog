@@ -5,7 +5,7 @@ title: Feature folders in Nancy
 metadescription: Learn how to utilise use feature folders in the Nancy web framework
 ---
 
-Working on large applications can get a little messy and related components can end up strewn accross a project. When working with MVC or Nancy I often find myself in situations where I'm sifting through the crontrollers, models and views folders to find related files. This is frustrating at best - especially when the height of one of these folders can span the hight of your monitor. One solution may be to get a bigger monitor - but there's a limit.
+Working on large applications can get a little messy and related components can end up strewn across a project. When working with MVC or Nancy I often find myself in situations where I'm sifting through the controllers, models and views folders to find related files. This is frustrating at best - especially when the height of one of these folders can span the hight of your monitor. One solution may be to get a bigger monitor - but there's a limit.
 
 ![Giant Monitor][0]
 
@@ -22,7 +22,7 @@ Let me pose this slightly differently. Which of these reactions is most useful w
 
 Knowing the framework that is being used is an essential piece of information but it shouldn't be the single most important thing about your application. What does it do? What apects are there to it? What's the use case?
 
-Which of these is most useful when start to investigate a bug in the checkout?
+Which of these is most useful when you start to investigate a bug in the checkout?
 
  1. __Controllers__, __Models__, __Views__ - Yes, I get that it's an _MVC_ project but that doesn't help narrow down where the bug might be.
  2. __Basket__, __Checkout__, __Product__ - Ok, we have a starting point.
@@ -30,7 +30,7 @@ Which of these is most useful when start to investigate a bug in the checkout?
 What about Nancy
 ----------------
 
-One of my favorite things about the Nancy framework its focus on style. This is in some way a byproduct of the super-duper-happy-path but nevertheless it's an important factor in how a project is percieved and enjoyed because otherwise it feels too much like hard work. I have always put a focus on the simplicity and the usability of the frameworks I use in my personal projects but why should this stop at work? The goal of Nancy is __to stay out of the way as much as possible__ so unsurprisingly it's very simple to rearchitect the default template. Being the lovable rogue the I am I'm just going to move everything around and see what breaks. Here's what I'm starting with:
+One of my favorite things about the Nancy framework is its focus on style. This is in some way a byproduct of the super-duper-happy-path but nevertheless it's an important factor in how a project is percieved and enjoyed because otherwise it feels too much like hard work. I have always put a focus on the simplicity and the usability of the frameworks I use in my personal projects but why should this stop at work? The goal of Nancy is __to stay out of the way as much as possible__ so unsurprisingly it's very simple to rearchitect the default template. Being the lovable rogue that I am I'm just going to move everything around and see what breaks. Here's what I'm starting with:
 
 ![Starting Folders][3]
 
