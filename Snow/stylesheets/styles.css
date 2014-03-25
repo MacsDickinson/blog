@@ -267,6 +267,9 @@ footer { font-family: 'Open Sans', sans-serif; background: #292f39; font-size: 1
 		}
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
+ms-viewport{
+	width: device-width;
+}
 
 @media screen and (max-width: 768px) {
 	header h1 { 

@@ -55,6 +55,17 @@
 		hljs.initHighlightingOnLoad();
 	</script>
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52c82b2952baabb4"></script>
+	<script type="text/javascript">
+	    (function() {
+			if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+				var msViewportStyle = document.createElement("style");
+				msViewportStyle.appendChild(
+					document.createTextNode("ms-viewport{width:auto!important}")
+				);
+				document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+			}
+		})();
+	</script>
 </head>
 <body>
 	<header id="top">
