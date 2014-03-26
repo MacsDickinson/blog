@@ -66,4 +66,3 @@ With the top level archetecture nice and easy to navigate the next step is to [m
    [4]: /../images/feature-folders.png
    [5]: https://github.com/NancyFx/Nancy/wiki/View-location-conventions
    [6]: http://www.philliphaydon.com/2013/11/making-nancy-modules-easier-to-manage/
-   [6]: /../instant-nancy-web-development
