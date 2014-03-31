@@ -2,7 +2,7 @@
 layout: post
 category: Nancy, Architecture
 title: Feature Flags and Nancy
-metadescription: Learn how to utilise feature toggles in the Nancy web framework
+metadescription: Learn how to utilise feature flags in the Nancy web framework
 ---
 
 Last week I posted about [using feature folders][0] to organise your projects into a more manageable and logical way. This is great for keeping on top of your codebase but with the fourth dimension comes more complication. [Simon Davey][1] gave a great talk at [Agile Yorkshire][2] earlier in the year about his use of feature flags at [Canonical][3]. He suggested using them as a mechanism to separate features in development from features in the wild, reducing the need for feature branches.
