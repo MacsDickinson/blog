@@ -1,6 +1,6 @@
 ---
 layout: post
-category: javascript, Chrome Extension
+category: javascript, chrome extension
 title: Google Chrome Extension Tutorials: Popup.html
 metadescription: Learn how to utilise a pop-up window as a part of your Google Chrome extension 
 series: 

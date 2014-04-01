@@ -1,6 +1,6 @@
 ---
 layout: post
-category: javascript, Localisation
+category: javascript, localisation
 title: Localising JavaScript strings in ASP.NET
 ---
 

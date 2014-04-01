@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Nancy, Book Reviews
+category: nancy, book reviews
 title: Learn Nancy in 62 pages
 metadescription: Macs Dickinson reviews Christian Horsdal's book Instant Nancy Web Development
 ---

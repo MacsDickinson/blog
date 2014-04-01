@@ -1,6 +1,6 @@
 ---
 layout: post
-category: EventStore, Nancy
+category: EventStore, nancy
 title: When Nancy met Event Store
 ---
 

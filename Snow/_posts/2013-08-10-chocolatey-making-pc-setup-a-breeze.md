@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Chocolatey
+category: chocolatey
 title: Chocolatey - Why have cotton when you can have silk?
 ---
 

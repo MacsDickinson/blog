@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Goals
+category: goals
 title: The end of 30 goals for 2013
 ---
 

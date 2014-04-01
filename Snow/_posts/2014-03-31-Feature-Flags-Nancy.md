@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Nancy, Architecture
+category: nancy, architecture
 title: Feature Flags and Nancy
 metadescription: Learn how to utilise feature flags in the Nancy web framework
 ---

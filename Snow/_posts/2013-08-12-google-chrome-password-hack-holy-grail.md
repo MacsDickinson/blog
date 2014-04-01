@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Security
+category: security
 title: Google Chrome - The holy grail of password hacks
 ---
 

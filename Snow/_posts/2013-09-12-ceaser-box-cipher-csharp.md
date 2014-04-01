@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Cryptography, Security
+category: cryptography, security
 title: Caesar Box Cipher in C#
 ---
 

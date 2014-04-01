@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Uncategorised
+category: uncategorised
 title: Why I don't regret leaving university
 published: draft
 ---

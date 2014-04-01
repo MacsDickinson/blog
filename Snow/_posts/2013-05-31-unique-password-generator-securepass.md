@@ -1,7 +1,7 @@
 ---
 layout: post
-category: SecurePass, Security
-title: Unique Passwords - Why you need them and why SecurePass
+category: Uniquify, security
+title: Unique Passwords - Why you need them and why Uniquify
 ---
 
 ## What are the risks?
@@ -20,13 +20,13 @@ Run to your computer and change all of your passwords to be unique? But how are 
 
 ## Unique Passwords
 
-Meet [SecurePass][5] - a unique password generator that I began working on a few months ago. It began as a simple algorithm that I used to work out unique passwords for different sites in my head; take one letter from here, one from there, add something pseudo-random and hey presto you have yourself a unique password. The problem with that is that if it is simple enough for me to work out in my head it's definitely simple enough for a hacker to crack. So I put it into a web application, added SHA265 hashing and improved my algorithm to ensure that it was non-reversible.
+Meet [Uniquify][5] - a unique password generator that I began working on a few months ago. It began as a simple algorithm that I used to work out unique passwords for different sites in my head; take one letter from here, one from there, add something pseudo-random and hey presto you have yourself a unique password. The problem with that is that if it is simple enough for me to work out in my head it's definitely simple enough for a hacker to crack. So I put it into a web application, added SHA265 hashing and improved my algorithm to ensure that it was non-reversible.
 
 ## How does it work
 
-[SecurePass][5] takes the domain you are logging into and a secret word of your choice; hashes them and then runs them through my algorithm, which takes into account length and character selection. This process then creates the final, unique password specific to the domain. In order to ensure that your secret word could never be intersected by hackers, the transformation is done in the browser. This does mean that the algorithm is visible to anyone with an F12 button, however using SHA265 hashing, along with my algorithm, ensures that this is a one-way transformation, removing the danger of a hacker recovering your secret word.
+[Uniquify][5] takes the domain you are logging into and a secret word of your choice; hashes them and then runs them through my algorithm, which takes into account length and character selection. This process then creates the final, unique password specific to the domain. In order to ensure that your secret word could never be intersected by hackers, the transformation is done in the browser. This does mean that the algorithm is visible to anyone with an F12 button, however using SHA265 hashing, along with my algorithm, ensures that this is a one-way transformation, removing the danger of a hacker recovering your secret word.
 
-![SecurePass - unique password generator][6]
+![Uniquify - unique password generator][6]
 
 ## Next steps
 
@@ -36,5 +36,5 @@ This app is still young and I have a lot I'd like to add to it. I am currently w
    [2]: https://drupal.org/news/130529SecurityUpdate "Important Security Update: Reset Your Drupal.org Password"
    [3]: https://wallet.google.com/ "Google Wallet"
    [4]: /../images//hackers_security_password-100004008-gallery.jpg
-   [5]: http://www.macsentom.co.uk/SecurePass "SecurePass - Secure Password Generator"
-   [6]: /../images/SecurePass.png
+   [5]: http://www.macsentom.co.uk/Uniquify "Uniquify - Secure Password Generator"
+   [6]: /../images/Uniquify.png

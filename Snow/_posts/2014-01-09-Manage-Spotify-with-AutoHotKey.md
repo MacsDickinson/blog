@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Productivity
+category: productivity
 title: Manage Spotify with AutoHotKey
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Career
+category: career
 title: The Pursuit of Happyness - A tale of job dissatisfaction
 published: draft
 ---

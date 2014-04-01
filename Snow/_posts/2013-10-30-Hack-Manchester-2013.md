@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Hackathons
+category: hackathons
 title: Hack Manchester 2013
 ---
 
