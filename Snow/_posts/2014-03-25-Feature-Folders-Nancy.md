@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Nancy, Architecture
-title: Feature folders in Nancy
+title: Feature folders and Nancy
 metadescription: Learn how to utilise use feature folders in the Nancy web framework
 ---
 
